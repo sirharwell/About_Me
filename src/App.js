@@ -24,12 +24,10 @@ class Home extends React.Component {
         <Container text style={{marginTop:'170px'}}>
           <Segment style={{ backgroundColor: 'rgba(250, 250, 250, .8)', padding: '50px'}}>
             <Image src='https://image.ibb.co/dZuAmn/canduu_combined.png'></Image>
-            <Link to='./'>
             <Button color='blue' size='huge'>
               I Need...
               <Icon name='right arrow' />
-            </Button>
-            </Link>
+            </Button>>
           </Segment>
         </Container>
       </Segment>
@@ -38,34 +36,22 @@ class Home extends React.Component {
           <Grid computer={6} tablet={3} mobile={1} divided centered>
             <Grid.Row centered>
               <Grid.Column style={{width: '125px'}}>
-              <Link to='/' centered style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
                 <Icon className='home' centered verticalAlign='middle' size='big'/> <Header textAlign='center' as="h3">Home Repair</Header>
-              </Link>
               </Grid.Column>
               <Grid.Column style={{width: '125px'}}>
-              <Link to='/' centered style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
                 <Icon className='heartbeat' size='big'/> <Header textAlign='center' as="h3">Health & Wellness</Header>
-              </Link>
               </Grid.Column>
               <Grid.Column style={{width: '125px'}}>
-              <Link to='/' centered style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
                 <Icon className='camera retro' size='big'/> <Header textAlign='center' as="h3">Media</Header>
-              </Link>
               </Grid.Column>
               <Grid.Column style={{width: '125px'}}>
-              <Link to='/' centered style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
                 <Icon className='book' size='big'/> <Header textAlign='center' as="h3">Lessons</Header>
-              </Link>
               </Grid.Column>
               <Grid.Column style={{width: '125px'}}>
-              <Link to='/' centered style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
                 <Icon className='computer' size='big'/> <Header textAlign='center' as="h3">Websites & Design</Header>
-              </Link>
               </Grid.Column>
               <Grid.Column style={{width: '125px'}} >
-              <Link to='/' centered style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
                 <Icon className='paint brush' textAlign='center' size='big'/> <Header textAlign='center' as="h3">Custom Art</Header>
-              </Link>
               </Grid.Column>
             </Grid.Row>
           </Grid>
@@ -134,7 +120,7 @@ class Home extends React.Component {
             <Grid.Row>
               <Grid.Column width={5}>
                 <Header inverted as='h4' content='Contact Us' />
-                <div link inverted>
+                <div>
                   <p>Phone: (801) 555-5555</p>
                   <p>Email: info@canduu.com</p>
                   <p>Address: 300 East 370 South<br /> Salt Lake City, Utah 84111</p>
