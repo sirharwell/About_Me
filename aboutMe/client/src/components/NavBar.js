@@ -14,15 +14,16 @@ class NavBar extends Component {
     return (
       <Menu
         fixed="top"
-        stackable
         size='large'
         pointing
         inverted
       >
-        <Menu.Item as='a' href="/" active={activeItem === '/'} >Home</Menu.Item>
-        <Menu.Item as='a' href="/" active={activeItem === '/'}>I need...</Menu.Item>
-        <Menu.Item as='a' href="/" active={activeItem === '/'}>Jobs</Menu.Item>
-        </Menu>
+      <Menu.Item as='a' href="/" active={activeItem === '/'} >Home</Menu.Item>
+      <Menu.Item as='a' href="/" active={activeItem === '/w'}>Work Experience</Menu.Item>
+      <Menu.Item as='a' href="/" active={activeItem === '/f'}>Family</Menu.Item>
+      <Menu.Item as='a' href="/" active={activeItem === '/i'} >Interests</Menu.Item>
+      <Menu.Item as='a' href="/" active={activeItem === '/c'}>Contact Me</Menu.Item>
+      </Menu>
     )
   }
 }
