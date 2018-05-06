@@ -27,45 +27,7 @@ class Home extends React.Component {
           </Segment>
         </Container>
       </Segment>
-      <Segment>
-        <Container>
-          <Grid computer={6} tablet={3} mobile={1} divided centered>
-            <Grid.Row centered>
-              <Grid.Column style={{width: '125px'}}>
-              <Link to='/' centered style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-                <Icon className='home' centered verticalAlign='middle' size='big'/> <Header textAlign='center' as="h3">Home Repair</Header>
-              </Link>
-              </Grid.Column>
-              <Grid.Column style={{width: '125px'}}>
-              <Link to='/' centered style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-                <Icon className='heartbeat' size='big'/> <Header textAlign='center' as="h3">Health & Wellness</Header>
-              </Link>
-              </Grid.Column>
-              <Grid.Column style={{width: '125px'}}>
-              <Link to='/' centered style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-                <Icon className='camera retro' size='big'/> <Header textAlign='center' as="h3">Media</Header>
-              </Link>
-              </Grid.Column>
-              <Grid.Column style={{width: '125px'}}>
-              <Link to='/' centered style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-                <Icon className='book' size='big'/> <Header textAlign='center' as="h3">Lessons</Header>
-              </Link>
-              </Grid.Column>
-              <Grid.Column style={{width: '125px'}}>
-              <Link to='/' centered style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-                <Icon className='computer' size='big'/> <Header textAlign='center' as="h3">Websites & Design</Header>
-              </Link>
-              </Grid.Column>
-              <Grid.Column style={{width: '125px'}} >
-              <Link to='/' centered style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-                <Icon className='paint brush' textAlign='center' size='big'/> <Header textAlign='center' as="h3">Custom Art</Header>
-              </Link>
-              </Grid.Column>
-            </Grid.Row>
-          </Grid>
-        </Container>
-      </Segment>
-      <Segment style={{ padding: '8em 0em' }} vertical>
+        <Segment style={{ padding: '8em 0em' }} vertical>
         <Grid container stackable verticalAlign='middle'>
           <Grid.Row>
             <Grid.Column width={8}>
