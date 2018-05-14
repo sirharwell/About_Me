@@ -35,7 +35,7 @@ class Home extends React.Component {
               <p style={{ fontSize: '1.33em' }}>
                 I've lived in England, Argentina, Colorado, Virginia, Illinois, Washington Dc, Maryland, Utah, and Texas.
               </p>
-              <Header as='h3' style={{ fontSize: '2em' }}>Your Contractor Doesn't Get Paid Until You Are 100% Satisfied!</Header>
+              <Header as='h3' style={{ fontSize: '2em' }}>I have been married for 8 years</Header>
               <p style={{ fontSize: '1.33em' }}>
                 Once you find a contractor and agree to how and when your project will be finished, you fund the project and we hold the funds until you are 100% satisfied with the work done. If you aren't happy, we will refund you 100%.
               </p>
