@@ -55,8 +55,8 @@ class Home extends React.Component {
         <Grid celled='internally' columns='equal' stackable>
           <Grid.Row textAlign='center'>
             <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-              <Header as='h3' style={{ fontSize: '2em' }}>"I found many professionals who were eager to work on my project and all gave me competitive quotes. I love Can Duu!!!"</Header>
-              <p style={{ fontSize: '1.33em' }}>-@james_Jessie</p>
+              <Header as='h3' style={{ fontSize: '2em' }}>"Ian is the best person I know"</Header>
+              <p style={{ fontSize: '1.33em' }}>-Someone, probably</p>
             </Grid.Column>
             <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
               <Header as='h3' style={{ fontSize: '2em' }}>"I never use anyone else to find someone for a project! Can Duu is the best!"</Header>
