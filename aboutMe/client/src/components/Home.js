@@ -37,7 +37,7 @@ class Home extends React.Component {
               </p>
               <Header as='h3' style={{ fontSize: '2em' }}>I have been married for 8 years</Header>
               <p style={{ fontSize: '1.33em' }}>
-                Once you find a contractor and agree to how and when your project will be finished, you fund the project and we hold the funds until you are 100% satisfied with the work done. If you aren't happy, we will refund you 100%.
+                She's the supper coolest, you can learn more about her here.
               </p>
             </Grid.Column>
             <Grid.Column floated='right' width={6}>
