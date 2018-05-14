@@ -33,7 +33,7 @@ class Home extends React.Component {
             <Grid.Column width={8}>
               <Header as='h3' style={{ fontSize: '2em' }}>Places I've lived</Header>
               <p style={{ fontSize: '1.33em' }}>
-                We get all of our professionals and run them through a rigerous process to weed out those who don't deserve your business. We only work with the highest quality and affordable professionals who do what they say they will do.
+                I've lived in England, Argentina, Colorado, Virginia, Illinois, Washington Dc, Maryland, Utah, and Texas.
               </p>
               <Header as='h3' style={{ fontSize: '2em' }}>Your Contractor Doesn't Get Paid Until You Are 100% Satisfied!</Header>
               <p style={{ fontSize: '1.33em' }}>
