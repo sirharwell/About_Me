@@ -18,7 +18,7 @@ class Home extends React.Component {
   render(){
     return(
       <div>
-      <Segment inverted textAlign='left' style={{
+      <Segment inverted textAlign='center' style={{
         backgroundImage: `url(https://lh3.googleusercontent.com/sw2TzwDt3LP5jmrXhhqgqpXPiFY2B7yww5t0Pji8gSfnzBcyHXIlimM2xvYRVLAuHhOGMborkA7TyFCNIT6VUn4luoLN1er91Up7bhWm7rp0KmPvhUCeHZ6yprb1LYBnns3arlBtYxJ6a5LryIA0PneqflQEPhTIF6DRlGcjGUEN-ard7ZvXcjrjtVO5dYC570AcE0mL-eT7flNe3hYVfHi7FBR8lMKEP0SOn5A4rqqqyu1d6IJOtwk-rcpX7fb63WooqDNk61WitPsyk9eKcx3BbGx5CzFnnEjfyV8kgEOHfkTA7U66fA96H6o9zqby0qso3A09mNQ8zmg4L_3gApJ6m_SSuVZmVPep3DlBh-hEc2TUrGhIi2sr5XTr7OBztOe_9JudZyLZtRe-gNbfLg9_5G2tyiGiHSvzzc_VfJG3UjAbaoDfzdOb-KONtHex4MFKD8QC-E7zj8cyDGuDd3LP9UoEGVltau0cEy7TvCtfUBxx0tTMHLuEofWd0T3PodT4KEn_dwZjLi1XaaSVNsQQMHOwN9d5ZgiJ60gXCn72PWu7l-SVNDCGXYzU9qUiW_90DKfhlXKdiEdDkceV2dastAlYVtasVsolepHX=w1239-h697-no)`, backgroundSize: " cover ", minHeight: 700, padding: '1em 0em' }} vertical
       >
         <Container text style={{marginTop:'30px'}}>
@@ -89,22 +89,26 @@ class Home extends React.Component {
           <Grid divided inverted stackable>
             <Grid.Row>
               <Grid.Column width={5}>
-                <Header inverted as='h4' content='Contact Us' />
+                <Header inverted as='h4' content='Contact Me' />
                 <div link inverted>
-                  <p>Phone: (801) 555-5555</p>
-                  <p>Email: info@canduu.com</p>
-                  <p>Address: 300 East 370 South<br /> Salt Lake City, Utah 84111</p>
+                  <p>Phone: (801) 874-7127</p>
+                  <p>Email: sirharwell@gmail.com</p>
                   <div textAlign='center' relaxed columns={3}>
-                      <Button circular color='facebook' icon='facebook' />
-                      <Button circular color='twitter' icon='twitter' />
+                    <a href='https://www.facebook.com/ian.harwell'>
+                      <Button circular color='facebook' icon='facebook'  />
+                    </a>
+                    <a href='https://www.linkedin.com/in/ian-harwell/'>
                       <Button circular color='linkedin' icon='linkedin' />
-                      <Button circular color='google plus' icon='google plus' />
-                    </div>
+                    </a>
+                    <a href='https://github.com/sirharwell'>
+                      <Button circular color='github' icon='github' />
+                    </a>
+                  </div>
                 </div>
               </Grid.Column>
               <Grid.Column width={10} verticalAlign="middle">
                 <Header as='h4' inverted>About</Header>
-                <p>We get all of our professionals and run them through a rigerous process to weed out those who do not deserve your business. We only work with the highest quality and affordable professionals who do what they say they will do.</p>
+                <p>I am a full stack developer. After a career in sales/finance I went back to school to pursue a career that both challenged and excited me. I am ready to work in a fast-paced environment where I can continue learning to do what I love.</p>
               </Grid.Column>
             </Grid.Row>
           </Grid>
