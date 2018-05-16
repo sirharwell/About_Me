@@ -68,9 +68,9 @@ class Home extends React.Component {
       </Segment>
       <Segment style={{ padding: '8em 0em' }} vertical>
         <Container text>
-          <Header as='h3' style={{ fontSize: '2em' }}>We Have All The Right People!</Header>
+          <Header as='h3' style={{ fontSize: '2em' }}>Above all I like to have fun!</Header>
           <p style={{ fontSize: '1.33em' }}>
-            When you need a handyman, photographer, plumber, landscaper, CPA, tailor, and just about anything else you can think of, we have your back!
+            I like to travel. I enjoy going camping and jeeping. I want to try and visit all the wonders of the world. 
             <br/>
             <br/>
             We have all the people you need to get your projects done, and done right. We have partnered with many organizations to provide you with the highest qualified, local professionals to take care of your projects in a timely and cost-effective way. You won't pay a dime for a quote and you can rest assured that the project will be done right the first time or it's on us!
