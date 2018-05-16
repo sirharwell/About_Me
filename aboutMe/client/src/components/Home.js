@@ -59,7 +59,7 @@ class Home extends React.Component {
               <p style={{ fontSize: '1.33em' }}>-Someone, probably</p>
             </Grid.Column>
             <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-              <Header as='h3' style={{ fontSize: '2em' }}>"I never use anyone else to find someone for a project! Can Duu is the best!"</Header>
+              <Header as='h3' style={{ fontSize: '2em' }}>"How can someone this smart be this attractive?"</Header>
               <p style={{ fontSize: '1.33em' }}> -@brad-f
               </p>
             </Grid.Column>
