@@ -70,10 +70,10 @@ class Home extends React.Component {
         <Container text>
           <Header as='h3' style={{ fontSize: '2em' }}>Above all I like to have fun!</Header>
           <p style={{ fontSize: '1.33em' }}>
-            I like to travel. I enjoy going camping and jeeping. I want to try and visit all the wonders of the world. 
+            I like to travel. I enjoy going camping and jeeping. I want to try and visit all the wonders of the world.
             <br/>
             <br/>
-            We have all the people you need to get your projects done, and done right. We have partnered with many organizations to provide you with the highest qualified, local professionals to take care of your projects in a timely and cost-effective way. You won't pay a dime for a quote and you can rest assured that the project will be done right the first time or it's on us!
+            If you want to know more about me, feel free to explore the website. If that doesn't sem like quite enough, hit me up on social media or just send me a text/email like the gold ol' days. I typically get online at least once a day even when out exploring the world, so response time shouldn't be too long. 
           </p>
           <Divider
             as='h4'
