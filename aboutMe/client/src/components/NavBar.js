@@ -19,7 +19,7 @@ class NavBar extends Component {
         inverted
       >
       <Menu.Item as='a' href="/" active={activeItem === '/'} >Home</Menu.Item>
-      <Menu.Item position='right' as='a' href="/" active={activeItem === '/w'}>Work Experience</Menu.Item>
+      <Menu.Item position='right' as='a' href="/Work_XP" active={activeItem === '/w'}>Work Experience</Menu.Item>
       <Menu.Item position='right' as='a' href="/" active={activeItem === '/f'}>Family</Menu.Item>
       <Menu.Item position='right' as='a' href="/" active={activeItem === '/i'} >Interests</Menu.Item>
       <Menu.Item position='right' as='a' href="/" active={activeItem === '/c'}>Contact Me</Menu.Item>
