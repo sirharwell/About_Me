@@ -61,16 +61,22 @@ class Work extends React.Component {
           </Grid.Row>
         </Grid>
       </Segment>
+        <Image
+        rounded
+        centered
+        size='huge'
+        src='https://gradsoflife.org/wp-content/uploads/2013/10/FIDELITY-logo.jpg'/>
+        <Divider hidden/>
       <Segment style={{ padding: '0em' }} vertical>
         <Grid celled='internally' columns='equal' stackable>
           <Grid.Row textAlign='center'>
             <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-              <Header as='h3' style={{ fontSize: '2em' }}>"Ian is the best person I know"</Header>
-              <p style={{ fontSize: '1.33em' }}>-Someone, probably</p>
+              <Header as='h3' style={{ fontSize: '2em' }}>Stock Plan Consultant</Header>
+              <p style={{ fontSize: '1.33em' }}>I worked with several large companies facilitating their equity compensation plans. I helped individual employees accept, review, and cash in their stock options and restricted stocks. I specifically worked with high net worth employees (awards worth over $100k) and offered different forms of managed accounts to help them with their money.</p>
             </Grid.Column>
             <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-              <Header as='h3' style={{ fontSize: '2em' }}>"How can someone this smart be this attractive?"</Header>
-              <p style={{ fontSize: '1.33em' }}> -My Wife
+              <Header as='h3' style={{ fontSize: '2em' }}>Financial Representative</Header>
+              <p style={{ fontSize: '1.33em' }}>I worked with the non-retirement clients. I placed stock and mutual fund trades. I helped do account maintenance and planning. Recommended different managed accounts.
               </p>
             </Grid.Column>
           </Grid.Row>
@@ -78,6 +84,16 @@ class Work extends React.Component {
       </Segment>
       <Segment style={{ padding: '8em 0em' }} vertical>
         <Container text>
+        <Image.Group centered>
+        <Image
+        rounded
+        size='medium'
+        src='https://mms.businesswire.com/media/20150601006340/en/458641/5/Allconnect_2015_logo.jpg'/>
+        <Image
+        rounded
+        size='medium'
+        src='https://assets.themuse.com/uploaded/companies/1146/small_logo.png?v=5b1b32122448bd9e8c926027371bc6de4a445857c0b7e5c1eeff7cb54abe9228'/>
+        </Image.Group>
           <Header as='h3' style={{ fontSize: '2em' }}>Above all I like to have fun!</Header>
           <p style={{ fontSize: '1.33em' }}>
             I like to travel. I enjoy going camping and jeeping. I want to try and visit all the wonders of the world.
