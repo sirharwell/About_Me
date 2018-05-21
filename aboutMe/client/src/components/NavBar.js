@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import { Menu, Image, Button, Label, Icon } from 'semantic-ui-react';
 import { Link, withRouter } from 'react-router-dom';
-
+import { connect } from 'react-redux';
 
 
 class NavBar extends Component {
   state = {
+    activeItem: this.props.location.pathname
   }
 
 
   render() {
-    const { activeItem } = this.state
+    const { activeItem } = this.state;
     return (
       <Menu
         fixed="top"
@@ -19,7 +20,7 @@ class NavBar extends Component {
         inverted
       >
       <Menu.Item as='a' href="/" active={activeItem === '/'} >Home</Menu.Item>
-      <Menu.Item position='right' as='a' href="/Work_XP" active={activeItem === '/w'}>Work Experience</Menu.Item>
+      <Menu.Item position='right' as='a' href="/Work_XP" active={activeItem === "/Work_XP"}>Work Experience</Menu.Item>
       <Menu.Item position='right' as='a' href="/" active={activeItem === '/f'}>Family</Menu.Item>
       <Menu.Item position='right' as='a' href="/" active={activeItem === '/i'} >Interests</Menu.Item>
       <Menu.Item position='right' as='a' href="/" active={activeItem === '/c'}>Contact Me</Menu.Item>
