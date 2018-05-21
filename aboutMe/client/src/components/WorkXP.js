@@ -33,13 +33,13 @@ class Work extends React.Component {
             <Grid.Column width={8}>
               <Header as='h3' style={{ fontSize: '2em' }}>Programming stuff I have learned</Header>
               <p style={{ fontSize: '1.33em' }}>
-              HTML,	UI Frameworks,	Rails,	ESNext,
-              CSS,	Ruby,	Authentication,	ReactJS,
+              Ruby,	Rails,	UI Frameworks, ReactJS,
+              CSS,	HTML,	Authentication,
               a11y,	Fundamentals,	Deployment,	Flux,
               JavaScript,	GIT,	Testing,	Redux,
-              Ruby,	SQL,	QA,	Webpack,
+              SQL,	QA,	Webpack,	Native,
               Command Line,	jQuery,	AJAX / Fetch / Axios,	Routing,
-              Functional Programming,	OOP	Performance,	Native,
+              Functional Programming,	OOP	Performance,
               Real Time Applications,	PWA	Package Publishing, and more.
                              </p>
               <Header as='h3' style={{ fontSize: '2em' }}>Certifications</Header>
