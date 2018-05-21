@@ -40,19 +40,22 @@ class Work extends React.Component {
               Ruby,	SQL,	QA,	Webpack,
               Command Line,	jQuery,	AJAX / Fetch / Axios,	Routing,
               Functional Programming,	OOP	Performance,	Native,
-              Real Time Applications,	PWA's	Package Publishing, and more.
+              Real Time Applications,	PWA	Package Publishing, and more.
                              </p>
-              <Header as='h3' style={{ fontSize: '2em' }}>I have been married for 8 years</Header>
+              <Header as='h3' style={{ fontSize: '2em' }}>Certifications</Header>
               <p style={{ fontSize: '1.33em' }}>
-                She's the super coolest, you can learn more about her
-              </p><a href=''>here.</a>
+              Professional Education - Full-Stack Web Development Certificate
+              Series 7 - General Securities & Series 63 - Uniform Securities
+              </p>
+              <a href='https://www.youracclaim.com/badges/95705a7f-f8ff-4b32-8594-9245e4f0e5a5'>Full-Stack proof</a><br/>
+              <a href='http://brokercheck.finra.org/individual/summary/6546083#examsSection'>Securities Proof</a>
             </Grid.Column>
             <Grid.Column floated='right' width={6}>
               <Image
                 bordered
                 rounded
                 size='large'
-                src='https://lh3.googleusercontent.com/NvP-49W-uHr6vPqDdb7IvHrwfoMVzSCKPuY-CwfM5IODhl0S4GTDfnxN9jyTNL7cNzQott1n2n1pDz0LuCEkTARHyXY-z74fWoOdRvLTQJis7ZHozqQxxQpBxJiwsZTpH7aeKpgwjw6Izf4oSIjTprujcngGOQ76fBUptSV9xmy4lEcJbXRabthKztKUQ2RWT9wFycF2ZCNwKhQLq0d0ZNtMAs_v4GN7GLBB47LkeJ3Y_qgEugGt9uICCZnJYHGhnCXqscKMaDtDVFTccsCIimW1La-LHlgGODfoU0KNAtB_34tEC0NbELltwGnsnjG5Q9NGtGLF4_JFj1pE6J3A872_1i5kCUTZCUtIaM9OK80IYHNwtnTlLTOFcybVuzpDxnPrOlMfKCEfPcwP9BI_bLe-fBkLOnu3uN1tpzpO6ERawbLOFYgNTN-GCo-I6fAliOyIS_DErgZe9TIoui3ZdTFJ3_GmREIQI1r7X5std_qYIdb1-hTt9X2DHvhlfLUsSkwb5_YrdOPgYgk4XILjxR2AXOdWBqXQso4GfMHQntJQWi_joszAWT2R0zZrHyQ3FkuTCtimEB1CzCr-Rc36SdSy50532QAO4YZyF3Wk=w570-h759-no'
+                src='https://acclaim-production-app.s3.amazonaws.com/images/1d1c9176-df19-4109-9538-4368de8358f9/dev-point-badge-graphic.png'
               />
             </Grid.Column>
           </Grid.Row>
