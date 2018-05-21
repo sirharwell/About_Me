@@ -29,4 +29,8 @@ class NavBar extends Component {
   }
 }
 
-export default NavBar;
+const mapStateToProps = state => {
+  return { user: state.user };
+};
+
+export default withRouter(connect(mapStateToProps)(NavBar));
