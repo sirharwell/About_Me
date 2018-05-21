@@ -23,7 +23,7 @@ class Work extends React.Component {
       >
         <Container text style={{marginTop:'30px'}}>
           <Segment style={{ backgroundColor: 'rgba(250, 250, 250, .0)', padding: '20px'}}>
-            <Header as='h3' inverted style={{ fontSize: '4em', textShadow: '-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black' }}>Ian Harwell</Header>
+            <Header as='h3' inverted style={{ fontSize: '4em', textShadow: '-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black' }}>Work Experience</Header>
           </Segment>
         </Container>
       </Segment>
