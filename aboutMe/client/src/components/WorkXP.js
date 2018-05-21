@@ -31,10 +31,17 @@ class Work extends React.Component {
         <Grid container stackable verticalAlign='middle'>
           <Grid.Row>
             <Grid.Column width={8}>
-              <Header as='h3' style={{ fontSize: '2em' }}>Places I've lived</Header>
+              <Header as='h3' style={{ fontSize: '2em' }}>Programming stuff I have learned</Header>
               <p style={{ fontSize: '1.33em' }}>
-                I've lived in England, Argentina, Colorado, Virginia, Illinois, Washington Dc, Maryland, Utah, and Texas.
-              </p>
+              HTML,	UI Frameworks,	Rails,	ESNext,
+              CSS,	Ruby,	Authentication,	ReactJS,
+              a11y,	Fundamentals,	Deployment,	Flux,
+              JavaScript,	GIT,	Testing,	Redux,
+              Ruby,	SQL,	QA,	Webpack,
+              Command Line,	jQuery,	AJAX / Fetch / Axios,	Routing,
+              Functional Programming,	OOP	Performance,	Native,
+              Real Time Applications,	PWA's	Package Publishing, and more.
+                             </p>
               <Header as='h3' style={{ fontSize: '2em' }}>I have been married for 8 years</Header>
               <p style={{ fontSize: '1.33em' }}>
                 She's the super coolest, you can learn more about her
