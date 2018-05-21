@@ -94,12 +94,11 @@ class Work extends React.Component {
         size='medium'
         src='https://assets.themuse.com/uploaded/companies/1146/small_logo.png?v=5b1b32122448bd9e8c926027371bc6de4a445857c0b7e5c1eeff7cb54abe9228'/>
         </Image.Group>
-          <Header as='h3' style={{ fontSize: '2em' }}>Above all I like to have fun!</Header>
+          <Header as='h3' style={{ fontSize: '2em' }}>Different Companies, same job</Header>
           <p style={{ fontSize: '1.33em' }}>
-            I like to travel. I enjoy going camping and jeeping. I want to try and visit all the wonders of the world.
+            I sold various telecom providers. I sold both thet major as well as regional companies. For example, Xfinity as well as Cincinnati Bell. We had requirements to hit conversion rates (sales per call) as well as maintaining a high level of costumer satisfaction and a rigurous QA requiremnt.
             <br/>
             <br/>
-            If you want to know more about me, feel free to explore the website. If that doesn't sem like quite enough, hit me up on social media or just send me a text/email like the gold ol' days. I typically get online at least once a day even when out exploring the world, so response time shouldn't be too long.
           </p>
           <Divider
             as='h4'
