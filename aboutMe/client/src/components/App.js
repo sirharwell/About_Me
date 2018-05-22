@@ -6,6 +6,7 @@ import Register from './Register';
 import Flash from './Flash';
 import Home from './Home';
 import WorkXP from './WorkXP'
+import Family from './Family'
 import ProtectedRoute from './ProtectedRoute';
 import AuthRoute from './AuthRoute';
 import FetchUser from './FetchUser';
@@ -21,6 +22,7 @@ class App extends Component {
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/Work_XP' component={WorkXP} />
+            <Route exact path='/Family' component={Family} />
             <Route component={NoMatch} />
           </Switch>
         </FetchUser>

@@ -13,11 +13,71 @@ import {
   Sidebar,
 } from 'semantic-ui-react'
 import { Link } from 'react-router-dom';
+import { Carousel } from "react-responsive-carousel";
+
 
 class Home extends React.Component {
   render(){
     return(
       <div>
+      <Carousel autoPlay>
+        <div>
+          <img src="http://lorempixel.com/output/cats-q-c-640-480-1.jpg" />
+          <p className="legend">Legend 1</p>
+        </div>
+        <div>
+          <img src="http://lorempixel.com/output/cats-q-c-640-480-2.jpg" />
+          <p className="legend">Legend 2</p>
+        </div>
+        <div>
+          <img src="http://lorempixel.com/output/cats-q-c-640-480-3.jpg" />
+          <p className="legend">Legend 3</p>
+        </div>
+        <div>
+          <img src="http://lorempixel.com/output/cats-q-c-640-480-4.jpg" />
+          <p className="legend">Legend 4</p>
+        </div>
+        <div>
+          <img src="http://lorempixel.com/output/cats-q-c-640-480-5.jpg" />
+          <p className="legend">Legend 5</p>
+        </div>
+        <div>
+          <img src="http://lorempixel.com/output/cats-q-c-640-480-6.jpg" />
+          <p className="legend">Legend 6</p>
+        </div>
+        <div>
+          <img src="http://lorempixel.com/output/cats-q-c-640-480-7.jpg" />
+          <p className="legend">Legend 7</p>
+        </div>
+        <div>
+          <img src="http://lorempixel.com/output/cats-q-c-640-480-8.jpg" />
+          <p className="legend">Legend 8</p>
+        </div>
+        <div>
+          <img src="http://lorempixel.com/output/cats-q-c-640-480-9.jpg" />
+          <p className="legend">Legend 9</p>
+        </div>
+        <div>
+          <img src="http://lorempixel.com/output/cats-q-c-640-480-10.jpg" />
+          <p className="legend">Legend 10</p>
+        </div>
+        <div>
+          <img src="http://lorempixel.com/output/cats-q-c-640-480-11.jpg" />
+          <p className="legend">Legend 11</p>
+        </div>
+        <div>
+          <img src="http://lorempixel.com/output/cats-q-c-640-480-12.jpg" />
+          <p className="legend">Legend 12</p>
+        </div>
+        <div>
+          <img src="http://lorempixel.com/output/cats-q-c-640-480-13.jpg" />
+          <p className="legend">Legend 13</p>
+        </div>
+        <div>
+          <img src="http://lorempixel.com/output/cats-q-c-640-480-14.jpg" />
+          <p className="legend">Legend 14</p>
+        </div>
+      </Carousel>
       <Segment inverted textAlign='center' style={{
         backgroundImage: `url(https://lh3.googleusercontent.com/sw2TzwDt3LP5jmrXhhqgqpXPiFY2B7yww5t0Pji8gSfnzBcyHXIlimM2xvYRVLAuHhOGMborkA7TyFCNIT6VUn4luoLN1er91Up7bhWm7rp0KmPvhUCeHZ6yprb1LYBnns3arlBtYxJ6a5LryIA0PneqflQEPhTIF6DRlGcjGUEN-ard7ZvXcjrjtVO5dYC570AcE0mL-eT7flNe3hYVfHi7FBR8lMKEP0SOn5A4rqqqyu1d6IJOtwk-rcpX7fb63WooqDNk61WitPsyk9eKcx3BbGx5CzFnnEjfyV8kgEOHfkTA7U66fA96H6o9zqby0qso3A09mNQ8zmg4L_3gApJ6m_SSuVZmVPep3DlBh-hEc2TUrGhIi2sr5XTr7OBztOe_9JudZyLZtRe-gNbfLg9_5G2tyiGiHSvzzc_VfJG3UjAbaoDfzdOb-KONtHex4MFKD8QC-E7zj8cyDGuDd3LP9UoEGVltau0cEy7TvCtfUBxx0tTMHLuEofWd0T3PodT4KEn_dwZjLi1XaaSVNsQQMHOwN9d5ZgiJ60gXCn72PWu7l-SVNDCGXYzU9qUiW_90DKfhlXKdiEdDkceV2dastAlYVtasVsolepHX=w1239-h697-no)`, backgroundSize: " cover ", minHeight: 700, padding: '1em 0em' }} vertical
       >
