@@ -83,13 +83,18 @@ class Family extends Component {
       <Segment style={{ padding: '0em' }} vertical>
         <Grid celled='internally' columns='equal' stackable>
           <Grid.Row textAlign='center'>
+          <Grid.Column floated='right' width={6}>
+            <Image
+              bordered
+              rounded
+              size='medium'
+              src='https://lh3.googleusercontent.com/35HQakmPYlvkTaHe_YhSZnrx1BoL3cKHLWAmcj7pURqOzSO0oeOywOH4JkgqPEXRMnsAkAcl8IRifMnLteQf5eE4kOBazE1kUeuEuJP1DWQBl2QjMSlKVl2ro0XNVsV8tU-8CSl2Kdz6ugi8hKIQTcjjAJNWNnyiqCaaQ84f09M_kWD4JkYxyX7kPCNG0dDdYqQL93YyH-zvTOBs3HI_G6ChxLfKP3x041bcVTNjyiMCcji46RKvhO-JKM8c4B8FLxHD1BnBSYsxrIJLt6C40Vowk1jkJuSvGR6wNPZkODielXBbfSEKkAzv2JKg0_8SpjOgoE8GKf-8UvTZV1m4YN0Y1kOQafM-FAcULkWESKWGQ66y0t8O6D5wLjTmHs8Dp1dTZksh0OWw4v7aKodY_1i5e8r_9vWYKyq3M3aL02icOmaMusoi1pMZYFkBHfrtSACI87zEJt6AmPqnTEC-irMpzX_PK-bzEGGIyJ6o8DRRgobZ6VGYLsreRH-skwm0RBqUmazcuxuC24oA_ZYe9fUokyHkVXBsELhMR3wnxcsUH8xboNZpA_1HtOsLwabB9mclHPW4k9niZmvpVBXMW-DFj5pnJ5E54-cJTLVA=w586-h781-no'
+            />
+          </Grid.Column>
             <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-              <Header as='h3' style={{ fontSize: '2em' }}>"Ian is the best person I know"</Header>
-              <p style={{ fontSize: '1.33em' }}>-Someone, probably</p>
-            </Grid.Column>
-            <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-              <Header as='h3' style={{ fontSize: '2em' }}>"How can someone this smart be this attractive?"</Header>
-              <p style={{ fontSize: '1.33em' }}> -My Wife
+            <br/><br/>
+            <Header as='h3' style={{ fontSize: '2em' }}>Liam</Header>
+              <p style={{ fontSize: '1.33em' }}> After seven years of adventures, we decided to go for the next big one. Liam is the best baby you could ask for. He likes to laugh and will always smile for the camera. His favorite thing to do is say "Hi" to everyone and give them a high five.
               </p>
             </Grid.Column>
           </Grid.Row>
