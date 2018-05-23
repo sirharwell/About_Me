@@ -1,4 +1,3 @@
-import React from 'react'
 import {
   Button,
   Container,
@@ -13,70 +12,72 @@ import {
   Sidebar,
 } from 'semantic-ui-react'
 import { Link } from 'react-router-dom';
-import { Carousel } from "react-responsive-carousel";
+import React, { PropTypes, Component } from 'react';
+import ReactDOM from 'react-dom';
+import { Carousel } from 'react-responsive-carousel';
+// general styles
+import './main.css';
+// carousel styles
+import './carousel.css';
+
+class Family extends Component {
+    render() {
+        return (
+            <Carousel showArrows={true}>
+                <div>
+                    <img src="https://lh3.googleusercontent.com/yJHmQYQSh7uOaXvUmXhg7nDbystVV1DlO_cKvWpHwfOnBX-X27da8L9qlV5krJgkfp46GgNGQdmIhMefUWHpMLXCXsglOVQr6PL4Tq2PXBr6FZC6TgWpQD2A-hNkZnTghlGEY1ufEG-vgIhaadd6wamOC7hX3ziZyoKxW2hGqbRkXn4EoZr3BFM68087VorsUbhFxU3U-ligIEbjP2eDBhTa1K5QIjAUDNbOry-5JS5vIcvQ9Ur2vyN3iY3oj0k5BU2dvVf4Z1i4NDQBGLckDJRjkSxLAKQp7YuNC-Npu4LLVMpXd-XU2Uce5ktJ6-3Z7KOvXEzbuY4MqTnQ9l7cpQZ0rp0ReEuzoab-Z80rRoHlZ-vCxCY2gAOZDo3YJpXnyhhoH6jBTFqGnr2PsHfQ7XiWP2GN04eA435Uwuoa8sKogeW9I_G3o3aml5pRjuu1VmavLFEkjka9J2xgpU-PGthc_YPvHl2IuBEgFR0Up6hacFUOcRggKyEHqCwCMAyzlFTl_aC_idmzy2RwOhNk6kFYYD5idvWBF2fZZykhJ8Dhd0lpm9iTHRLsPDFdFEJZyiYC4Lb1b6Bwxq6sS9j-ZX7GZOfKwLGA2IZDaqo=w1042-h781-no" />
+                    <p className="legend">Cori and I when we first started dating</p>
+                </div>
+                <div>
+                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/206285_10150468830080727_6494640_n.jpg?_nc_cat=0&oh=7672d9a811073aa4bdc45bb1e742cd2f&oe=5B81AD2A" />
+                    <p className="legend">Wedding Day</p>
+                </div>
+                <div>
+                    <img src="http://lorempixel.com/900/500/sports/3/" />
+                    <p className="legend">Legend 3</p>
+                </div>
+                <div>
+                    <img src="http://lorempixel.com/900/500/sports/4/" />
+                    <p className="legend">Legend 4</p>
+                </div>
+                <div>
+                    <img src="http://lorempixel.com/900/500/sports/5/" />
+                    <p className="legend">Legend 5</p>
+                </div>
+                <div>
+                    <img src="http://lorempixel.com/900/500/sports/6/" />
+                    <p className="legend">Legend 6</p>
+                </div>
+            </Carousel>
+        );
+    }
+}
+
+
+
+
 
 
 class Home extends React.Component {
   render(){
     return(
       <div>
-      <Carousel autoPlay>
+      <link rel="stylesheet" href="./node_modules/react-responsive-carousel/lib/styles/carousel.min.css"/>
+
+      <Carousel>
         <div>
           <img src="http://lorempixel.com/output/cats-q-c-640-480-1.jpg" />
-          <p className="legend">Legend 1</p>
+          <p className="legend">Cat!</p>
         </div>
         <div>
           <img src="http://lorempixel.com/output/cats-q-c-640-480-2.jpg" />
-          <p className="legend">Legend 2</p>
+          <p className="legend">More Cat</p>
         </div>
         <div>
           <img src="http://lorempixel.com/output/cats-q-c-640-480-3.jpg" />
-          <p className="legend">Legend 3</p>
+          <p className="legend">Kitty</p>
         </div>
-        <div>
-          <img src="http://lorempixel.com/output/cats-q-c-640-480-4.jpg" />
-          <p className="legend">Legend 4</p>
-        </div>
-        <div>
-          <img src="http://lorempixel.com/output/cats-q-c-640-480-5.jpg" />
-          <p className="legend">Legend 5</p>
-        </div>
-        <div>
-          <img src="http://lorempixel.com/output/cats-q-c-640-480-6.jpg" />
-          <p className="legend">Legend 6</p>
-        </div>
-        <div>
-          <img src="http://lorempixel.com/output/cats-q-c-640-480-7.jpg" />
-          <p className="legend">Legend 7</p>
-        </div>
-        <div>
-          <img src="http://lorempixel.com/output/cats-q-c-640-480-8.jpg" />
-          <p className="legend">Legend 8</p>
-        </div>
-        <div>
-          <img src="http://lorempixel.com/output/cats-q-c-640-480-9.jpg" />
-          <p className="legend">Legend 9</p>
-        </div>
-        <div>
-          <img src="http://lorempixel.com/output/cats-q-c-640-480-10.jpg" />
-          <p className="legend">Legend 10</p>
-        </div>
-        <div>
-          <img src="http://lorempixel.com/output/cats-q-c-640-480-11.jpg" />
-          <p className="legend">Legend 11</p>
-        </div>
-        <div>
-          <img src="http://lorempixel.com/output/cats-q-c-640-480-12.jpg" />
-          <p className="legend">Legend 12</p>
-        </div>
-        <div>
-          <img src="http://lorempixel.com/output/cats-q-c-640-480-13.jpg" />
-          <p className="legend">Legend 13</p>
-        </div>
-        <div>
-          <img src="http://lorempixel.com/output/cats-q-c-640-480-14.jpg" />
-          <p className="legend">Legend 14</p>
-        </div>
+
       </Carousel>
       <Segment inverted textAlign='center' style={{
         backgroundImage: `url(https://lh3.googleusercontent.com/sw2TzwDt3LP5jmrXhhqgqpXPiFY2B7yww5t0Pji8gSfnzBcyHXIlimM2xvYRVLAuHhOGMborkA7TyFCNIT6VUn4luoLN1er91Up7bhWm7rp0KmPvhUCeHZ6yprb1LYBnns3arlBtYxJ6a5LryIA0PneqflQEPhTIF6DRlGcjGUEN-ard7ZvXcjrjtVO5dYC570AcE0mL-eT7flNe3hYVfHi7FBR8lMKEP0SOn5A4rqqqyu1d6IJOtwk-rcpX7fb63WooqDNk61WitPsyk9eKcx3BbGx5CzFnnEjfyV8kgEOHfkTA7U66fA96H6o9zqby0qso3A09mNQ8zmg4L_3gApJ6m_SSuVZmVPep3DlBh-hEc2TUrGhIi2sr5XTr7OBztOe_9JudZyLZtRe-gNbfLg9_5G2tyiGiHSvzzc_VfJG3UjAbaoDfzdOb-KONtHex4MFKD8QC-E7zj8cyDGuDd3LP9UoEGVltau0cEy7TvCtfUBxx0tTMHLuEofWd0T3PodT4KEn_dwZjLi1XaaSVNsQQMHOwN9d5ZgiJ60gXCn72PWu7l-SVNDCGXYzU9qUiW_90DKfhlXKdiEdDkceV2dastAlYVtasVsolepHX=w1239-h697-no)`, backgroundSize: " cover ", minHeight: 700, padding: '1em 0em' }} vertical
@@ -179,4 +180,4 @@ class Home extends React.Component {
   }
 }
 
-export default Home;
+export default Family;
