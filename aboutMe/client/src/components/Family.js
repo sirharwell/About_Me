@@ -61,20 +61,20 @@ class Family extends Component {
         <Grid container stackable verticalAlign='middle'>
           <Grid.Row>
             <Grid.Column width={8}>
-              <Header as='h3' style={{ fontSize: '2em' }}>Places I've lived</Header>
+              <Header as='h3' style={{ fontSize: '2em' }}>Married for 8 years</Header>
               <p style={{ fontSize: '1.33em' }}>
-                I've lived in England, Argentina, Colorado, Virginia, Illinois, Washington Dc, Maryland, Utah, and Texas.
+                I met Cori during my senior year of high school. We quickly became best of friends even if we didn't see each other as romantic partners. Fast forward a bit forward and we realize that we were being dumb and were meant to be together. We got married and have been happy together ever since.
+                </p>
+                <p style={{ fontSize: '1.33em' }}>
+                Not only is she pretty cool, but she's a successful pediatric nurse, currently working at Primary Children's Hospital, which takes the worst patients arcross five different states. She's a great mother and wife.
               </p>
-              <Header as='h3' style={{ fontSize: '2em' }}>I have been married for 8 years</Header>
-              <p style={{ fontSize: '1.33em' }}>
-              </p><a href=''>here.</a>
             </Grid.Column>
             <Grid.Column floated='right' width={6}>
               <Image
                 bordered
                 rounded
                 size='large'
-                src='https://lh3.googleusercontent.com/NvP-49W-uHr6vPqDdb7IvHrwfoMVzSCKPuY-CwfM5IODhl0S4GTDfnxN9jyTNL7cNzQott1n2n1pDz0LuCEkTARHyXY-z74fWoOdRvLTQJis7ZHozqQxxQpBxJiwsZTpH7aeKpgwjw6Izf4oSIjTprujcngGOQ76fBUptSV9xmy4lEcJbXRabthKztKUQ2RWT9wFycF2ZCNwKhQLq0d0ZNtMAs_v4GN7GLBB47LkeJ3Y_qgEugGt9uICCZnJYHGhnCXqscKMaDtDVFTccsCIimW1La-LHlgGODfoU0KNAtB_34tEC0NbELltwGnsnjG5Q9NGtGLF4_JFj1pE6J3A872_1i5kCUTZCUtIaM9OK80IYHNwtnTlLTOFcybVuzpDxnPrOlMfKCEfPcwP9BI_bLe-fBkLOnu3uN1tpzpO6ERawbLOFYgNTN-GCo-I6fAliOyIS_DErgZe9TIoui3ZdTFJ3_GmREIQI1r7X5std_qYIdb1-hTt9X2DHvhlfLUsSkwb5_YrdOPgYgk4XILjxR2AXOdWBqXQso4GfMHQntJQWi_joszAWT2R0zZrHyQ3FkuTCtimEB1CzCr-Rc36SdSy50532QAO4YZyF3Wk=w570-h759-no'
+                src='https://lh3.googleusercontent.com/yow1uRDcjz04IaxpBUz_V5kMsxE85IgCDMSPchnkjEUMdlJkHTXZl0DnNXNoFr3zrxaurS5pZOp6EtbJevfP8mWBWmZR2AA-wRmcGtZf-NtD1HX3y_GCwjwqUcbvX1VqbobYyAO45qJviy6LqdbTssvuTNUs8RqnbK1JeehhptiMaaDWXcrQr4-mVQyPjBMqK6D2FeKyeOb91c2UMCT9e3oUzH1YV7QEHgoK4dpnM50y4Io8L07EAznbNs81FaVZVK7C9XjAUcgD5YLkllFGLn4-DFGiDZTzYBaeK_LeNBFzTTndonyPT-iG-YHb7kTSN1OabGli7XaDoq-knFvSKeDJ6SMW8HfUZoRMv3L6ydO2mbX-qGw_JqPdqB6EBdaFzmFJ9iv1OxHmpih06ygoT4yX3ITXVTzNhkbPdvDGdYGZ9nFmx46STG9FpFszDMrFRSQUQtLZDhcjSsgZEMEStRusC1CsstZd92UkaSt6yVnVkte0dwi0TJxn0pyB2hx5ZHYACK9iy9jFhwYUp1x2M6vlQs_9jyBlzcUHX1syV8kMTtM_BasAMu8-jcsEs4QtOqQET15xN94z5lEUQdIXC80xVgaLeD7CFyeGW6iH=w586-h781-no'
               />
             </Grid.Column>
           </Grid.Row>
