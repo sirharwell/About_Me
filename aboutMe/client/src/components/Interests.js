@@ -128,8 +128,9 @@ class Family extends Component {
         <Grid celled='internally' columns='equal' stackable>
           <Grid.Row textAlign='center'>
             <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-            <Header as='h3' style={{ fontSize: '2em' }}>Camping</Header>
-              <p style={{ fontSize: '1.33em' }}> When we're not galavanting the world, we like to spend time outdoors. We camp a lot. I like to camp in tents and sometimes not even those if the weather is nice, Cori likes to camp in cabins. So we've reached a good compromise in that we almost always stay in cabins.
+            <br/><br/>
+            <Header as='h3' style={{ fontSize: '2em' }}>Animals</Header>
+              <p style={{ fontSize: '1.33em' }}> I love animals. If I could set up a private animal sanctuary in my back yard, I totally would. We take my son to the zoo, but we all really know who that zoo trip is really for.
               </p>
             </Grid.Column>
             <Grid.Column floated='right' width={6}>
