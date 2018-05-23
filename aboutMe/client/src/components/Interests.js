@@ -29,30 +29,55 @@ class Family extends Component {
           <Grid.Column>
           <Segment textAlign="center" >
             <Carousel autoPlay infiniteLoop width="fluid" showArrows={true}>
-                <div>
-                    <img src="https://lh3.googleusercontent.com/yJHmQYQSh7uOaXvUmXhg7nDbystVV1DlO_cKvWpHwfOnBX-X27da8L9qlV5krJgkfp46GgNGQdmIhMefUWHpMLXCXsglOVQr6PL4Tq2PXBr6FZC6TgWpQD2A-hNkZnTghlGEY1ufEG-vgIhaadd6wamOC7hX3ziZyoKxW2hGqbRkXn4EoZr3BFM68087VorsUbhFxU3U-ligIEbjP2eDBhTa1K5QIjAUDNbOry-5JS5vIcvQ9Ur2vyN3iY3oj0k5BU2dvVf4Z1i4NDQBGLckDJRjkSxLAKQp7YuNC-Npu4LLVMpXd-XU2Uce5ktJ6-3Z7KOvXEzbuY4MqTnQ9l7cpQZ0rp0ReEuzoab-Z80rRoHlZ-vCxCY2gAOZDo3YJpXnyhhoH6jBTFqGnr2PsHfQ7XiWP2GN04eA435Uwuoa8sKogeW9I_G3o3aml5pRjuu1VmavLFEkjka9J2xgpU-PGthc_YPvHl2IuBEgFR0Up6hacFUOcRggKyEHqCwCMAyzlFTl_aC_idmzy2RwOhNk6kFYYD5idvWBF2fZZykhJ8Dhd0lpm9iTHRLsPDFdFEJZyiYC4Lb1b6Bwxq6sS9j-ZX7GZOfKwLGA2IZDaqo=w1042-h781-no" />
-                    <p className="legend">Cori and I when we first started dating</p>
-                </div>
-                <div>
-                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/206285_10150468830080727_6494640_n.jpg?_nc_cat=0&oh=7672d9a811073aa4bdc45bb1e742cd2f&oe=5B81AD2A" />
-                    <p className="legend">Wedding Day</p>
-                </div>
-                <div>
-                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/1896911_10203265429183314_463627747_n.jpg?_nc_cat=0&_nc_eui2=AeEJpcrMOWw5n5mfp9EJK_vhPOjaEe2bFoz9M73ydm5thh6j2gr7BmhRXdJIIktITKF5LiH1xjZBOmnxln9gruu6v1eNfXl6Av0anuuVecYIYw&oh=32685a40256d6eb026497828fcdcdb50&oe=5B8D60CA" />
-                    <p className="legend">"My Family"</p>
-                </div>
-                <div>
-                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/10857890_10205166910282701_8089820189994856374_n.jpg?_nc_cat=0&_nc_eui2=AeGXVmbEh2jatEeSHXrUi-G9UpXDEUF2pwyPaSZYimDE9qoaK6R3CzDsqQrR8JU4HqeVX5OEjd51YJ2WHZQmmqZDy620Q7W9WUQE2mZcpp_XXg&oh=8338c026e348e2b7df00c312b63ab405&oe=5BC01D44" />
-                    <p className="legend">"Cori's Family"</p>
-                </div>
-                <div>
-                    <img src="https://lh3.googleusercontent.com/HExEzktz98_vpIG3Xqx_nbZrWLasQoQmvS7_fMSYuXNVdwOxZEfihXwkuh_YWphKm47sLq2e5Zr4UN5Elmfi9MB5b6k2i6t2Qq3GzeZ_v5Y6ls928-P0MLFAijqEAdBd2QvUxq_muK4VQvc3QQ-699GmeXhN1J7rfgVFbtZbzDS6R9LQMOeB0I3qawEMOW-BRvdv_N13UU85v8BXFZw2I7AOKrHwksyFITqGqqwgnF4wekoF5aepviA7JLdELu3cxyPHjrsmHCPykbuysurl5n3C_UHBJE1ZF0SfIZHp4IX_RkuZAfPnu4gcbrvGXrGs2iFxOCN8Ioi-VOMYPL6_rsOhsOF-RMFSQKDs_WecXmO0iZxAzjzD4XHnPpvzNuLgniS6u8Uar-zV1b_LeDzmRiVXPTGTQ9PX0rtFWMr7vS9KGqkF8rzODLqEf0Fxmsh0bZAsz067BORQTlBCa0dI2W9rRrrziNBm685iAyP62RmDSNUuC0NBywteSbxgrTCP7qlrwJJzCiR8uG9GvtDpzV_NWfniy7EVszB7MuJHDtNvOnOmQqHoknBH8fbobo0BfVxB4HJ-QY1qJUA4JW5skUD9O7ibMZbAnqmAiI8x=w1042-h781-no" />
-                    <p className="legend">"Baby Liam joins the family"</p>
-                </div>
-                <div>
-                    <img src="https://lh3.googleusercontent.com/jqp5S2rbUCj_IH7gPtirhIvORpBZ5g30EVXLzUoraUTs3Pfodwl0WvchmSUj2I6hPuy5LlwkJNkBhWDUJicR0j-tsTnlTL4hRpM9NQdWQ5878uU-keIICVp2JKv9LKJQvzSgAf31aXPj-24coWuSA-uxeyEryMpzupZX2sACRN4EZ_bk-J4qE5CM6qi_Z5uZuiXqT5zItKCazJdbU3qd8wPHrHvav7hcaVrA_HtWhoPUWlGCjIur-rd0Lqi6yimQnrFTkjg-1mjCsrzvWp1XVTjhL7aGD-ibTOBFPajns-Ln0jdz86MRksyEa2tCFlqlxD9ezCZ6rIeUhVB9MlbvoCMwS-CIOyhwX9GM4mHzZ5vwxue3-UeKCcm2Dam3ukxSIzTLhvfh77PjnF30EByiyN0CfEKQjUm3vtH3aTZY3cbVAOtzvIMAq_sAXFFKqvlDrMTgdQOp9BaU3_cXH3XjYrBHmunkBwjKPHDmrqejMhMRzi1WmujVs_R6OC4P2nNvorBh5Cfj3ZTAOCb-ibRMgSCF84rrH_5oonbeEGh2-s8UsY1-_NvHJCGDXoSysHVVogyo5XaTlX9iWNf9Mb8l5UorLYHzFrhT3CPMPo35=w1042-h781-no" />
-                    <p className="legend">The Harwell Clan</p>
-                </div>
+            <div>
+                <img src="" />
+                <p className="legend"></p>
+            </div>
+            <div>
+                <img src="" />
+                <p className="legend"></p>
+            </div>
+            <div>
+                <img src="" />
+                <p className="legend"></p>
+            </div>
+            <div>
+                <img src="" />
+                <p className="legend"></p>
+            </div>
+            <div>
+                <img src="" />
+                <p className="legend"></p>
+            </div>
+            <div>
+                <img src="" />
+                <p className="legend"></p>
+            </div>
+            <div>
+                <img src="" />
+                <p className="legend"></p>
+            </div>
+            <div>
+                <img src="" />
+                <p className="legend"></p>
+            </div>
+            <div>
+                <img src="" />
+                <p className="legend"></p>
+            </div>
+            <div>
+                <img src="" />
+                <p className="legend"></p>
+            </div>
+            <div>
+                <img src="" />
+                <p className="legend"></p>
+            </div>
+            <div>
+                <img src="" />
+                <p className="legend"></p>
+            </div>
+                
             </Carousel>
             </Segment>
             </Grid.Column>
