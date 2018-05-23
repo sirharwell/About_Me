@@ -28,7 +28,7 @@ class Family extends Component {
           <Grid centered columns={2}>
           <Grid.Column>
           <Segment textAlign="center" >
-            <Carousel dynamicHeight autoPlay infiniteLoop width="fluid" showArrows={true}>
+            <Carousel dynamicHeight infiniteLoop width="fluid" showArrows={true}>
             <div>
                 <img src="https://lh3.googleusercontent.com/Lf4ayFDDO6X0yCwZHYSgBMEN6LhPxal0iWMaoT-iFKWU0ATsSN0pMze02eqi7rP1SExLqTrE0RiEtM7nOb0MB6Uwf-u-O-DgbqjpRl90g5fVrtjNHbLgNuaLISPoomftHqhnvcliVaj5S_tvQR7pguF6zMiAaa6SaAq5z41JCp3mc5ppZYwD8Kkj5QGTRnsKSif9tebXqF6Mjoed9afPPtbx1uEBuqsKECQDFz98UZ5XahFECwQ-tqlNpCjwTLNUdGwuuYY6F8oKzU4yKIe4sX8oHmI3BINuLEQ6LWcPAzjBGS9cQMmL6AJkPt1Dvfwe7IuUTmslNQOL6bFGGiutxuvosI7euDYnTa_2SmEgMQ3W64bAkU3ao5ZmoTzWr58qEfSUQSCbjQ5JxLNj-LyhRbakRWjlHo4mAIRRocczGBipIv_3TAljJVjQp0WL_L1lHDWKgAUJS-mAmjB9Qcb92iTPWhotQYjZDPeWRiglRObbC1klZO1mpdwik2-fRKpVVQv5P5OfVKHwmj_g_bp80XizcQCu-jzsje_taqJf4GEuKRkOF90THRuwIQko11OUUP-JvzZcFLyB0f8nsPOwWqEMwCgiF4P9pUc-pOfJ=w1243-h700-no" />
                 <p className="legend">Jeeping</p>
@@ -91,7 +91,7 @@ class Family extends Component {
                 I live to travel. Most of our extra money goes to seeing the world. There's so much to see and do and I want to see and do it all. Between my wife and I, we've been to 17 countries and we're hoping to expand that. We have a goal to leave the country at least every other year. Our two favorite places have been the UK and basically anywhere in the Caribbean.
               </p>
                 <p style={{ fontSize: '1.33em' }}>
-                That Map has every country that we've been to, all filled. Hopefully as time goes, that map will be much much fuller. 
+                That Map has every country that we've been to, all filled. Hopefully as time goes, that map will be much much fuller.
               </p>
             </Grid.Column>
             <Grid.Column floated='right' width={6}>
@@ -112,16 +112,35 @@ class Family extends Component {
             <Image
               bordered
               rounded
-              size='medium'
-              src='https://lh3.googleusercontent.com/35HQakmPYlvkTaHe_YhSZnrx1BoL3cKHLWAmcj7pURqOzSO0oeOywOH4JkgqPEXRMnsAkAcl8IRifMnLteQf5eE4kOBazE1kUeuEuJP1DWQBl2QjMSlKVl2ro0XNVsV8tU-8CSl2Kdz6ugi8hKIQTcjjAJNWNnyiqCaaQ84f09M_kWD4JkYxyX7kPCNG0dDdYqQL93YyH-zvTOBs3HI_G6ChxLfKP3x041bcVTNjyiMCcji46RKvhO-JKM8c4B8FLxHD1BnBSYsxrIJLt6C40Vowk1jkJuSvGR6wNPZkODielXBbfSEKkAzv2JKg0_8SpjOgoE8GKf-8UvTZV1m4YN0Y1kOQafM-FAcULkWESKWGQ66y0t8O6D5wLjTmHs8Dp1dTZksh0OWw4v7aKodY_1i5e8r_9vWYKyq3M3aL02icOmaMusoi1pMZYFkBHfrtSACI87zEJt6AmPqnTEC-irMpzX_PK-bzEGGIyJ6o8DRRgobZ6VGYLsreRH-skwm0RBqUmazcuxuC24oA_ZYe9fUokyHkVXBsELhMR3wnxcsUH8xboNZpA_1HtOsLwabB9mclHPW4k9niZmvpVBXMW-DFj5pnJ5E54-cJTLVA=w586-h781-no'
+              size='large'
+              src='https://lh3.googleusercontent.com/Jr5ewy-LtEoxLJmTCDFGYEzUuApoSstGhdd9lw_MplZyZFvFpnncJDYY1YX8OuvZGBvUI_G6pUtOt07anghXrbUlT0eCJlWXGfs8q4wbbYrtKaHJKHbzt6UMXR5drRCowHATebpo8BnV3xZFZE57ZX1myjUCll87dSIsCbHuXxlz0NHWCZMNwFY2sClL39IhkE0et6PEvbYTSw0T9naNfwUpJm_b1V07Hc4eSnmM2JekYVCf8N7IImWRaMUH5JswPXG-mWa_Rj-3NqtfFUi5NSwTlZrFF8jhS86GJsaDGpahZLSR8swewdzO7DIJosivM61qxc3_CD3M-ezYKrPBu9FQvaPKjHiYrP_EFYDbUEkBEok1M_aI_9PIRlB8YuJ4C-ZuhhcGLK-2ESzs0PKLfAN8364nj-gl5nP-wTPE11AE_WmeCY4M6YZk03amuxHj_jXsOqeDQ464sScKVlaREo5Dago6mZrpqBLxeWiiFd5z9Dyhb5nt1y8WHzosXrPOhu3wukuCmsNP4E2_RZx9jd7c-yx_W7W1_8c8oCbHL8ghIXXnBIVsRU9Egi2euF8ofC2jhTG534wsTtYn2cZZENsaVBct2OF09rp6eaAM=w1243-h700-no'
             />
           </Grid.Column>
             <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-            <br/><br/>
-            <Header as='h3' style={{ fontSize: '2em' }}>Liam</Header>
-              <p style={{ fontSize: '1.33em' }}> After seven years of adventures, we decided to go for the next big one. Liam is the best baby you could ask for. He likes to laugh and will always smile for the camera. His favorite thing to do is say "Hi" to everyone and give them a high five.
+            <Header as='h3' style={{ fontSize: '2em' }}>Camping</Header>
+              <p style={{ fontSize: '1.33em' }}> When we're not galavanting the world, we like to spend time outdoors. We camp a lot. I like to camp in tents and sometimes not even those if the weather is nice, Cori likes to camp in cabins. So we've reached a good compromise in that we almost always stay in cabins.
               </p>
             </Grid.Column>
+          </Grid.Row>
+        </Grid>
+      </Segment>
+      <Segment style={{ padding: '0em' }} vertical>
+        <Grid celled='internally' columns='equal' stackable>
+          <Grid.Row textAlign='center'>
+            <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+            <Header as='h3' style={{ fontSize: '2em' }}>Camping</Header>
+              <p style={{ fontSize: '1.33em' }}> When we're not galavanting the world, we like to spend time outdoors. We camp a lot. I like to camp in tents and sometimes not even those if the weather is nice, Cori likes to camp in cabins. So we've reached a good compromise in that we almost always stay in cabins.
+              </p>
+            </Grid.Column>
+            <Grid.Column floated='right' width={6}>
+              <Image
+                bordered
+                rounded
+                size='medium'
+                src='https://lh3.googleusercontent.com/8qWDjtQmOpFtPnNGfLib1R_aCDnYYozzSaAQwuFj8D6jHUIcZSi4rqWXDHhwGE_zW1mz3PYHtWDiHtsxpvLLtkbfSE1YrlWBrIpBZOnTXN0KemQmur0oNbG9Ws-iIzhyqWulLBxmbxC8klEGnY6cX59hBRZ0iN9mWA1qlcQIDn0y9kx8vjDKlA_xrlCheliqaeJD_AW__Ku9xoTIjz7kaDAO1F6e4sd1AWySsbm0wP6VNaALx0zpYkTk6MH_Ny8pDnSbc50Jkjde6NQUiBlAIHWl7-HZRdrm34tlotKygwa9BHlxeFjvLCQzanlv6jRf5O0F0WSU5uBcDDgbYgmN_KqdSPxlF-haHMMK4w5hil6iYbp17nG8gWcqWP_jkT-nwKHUzK5JyZsndsN0jXtz6MNzb8AVrTfJY08kcvHYK2bUhbDopVzOycsAkfzmtr6yz5nm-gdt7K9FAeNNvBVwSgkVEZSKj3DNrDX8lKuvbsQqQt8wKK8P7_Yp50v2jNE9rm9Wxko6tH9e7bENgJaRRvS2lQMkP_6G3htZMlWnDCsf0R5RwkuYFEehPglzPciYsJzgRj4pBfE6RdeW6Wv533s8rTsQfxTR-U2ukTk=w586-h781-no'
+              />
+            </Grid.Column>
+
           </Grid.Row>
         </Grid>
       </Segment>
