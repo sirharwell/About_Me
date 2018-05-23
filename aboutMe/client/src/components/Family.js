@@ -100,23 +100,6 @@ class Family extends Component {
           </Grid.Row>
         </Grid>
       </Segment>
-      <Segment style={{ padding: '8em 0em' }} vertical>
-        <Container text>
-          <Header as='h3' style={{ fontSize: '2em' }}>Above all I like to have fun!</Header>
-          <p style={{ fontSize: '1.33em' }}>
-            I like to travel. I enjoy going camping and jeeping. I want to try and visit all the wonders of the world.
-            <br/>
-            <br/>
-          </p>
-          <Divider
-            as='h4'
-            className='header'
-            horizontal
-            style={{ margin: '3em 0em', textTransform: 'uppercase' }}
-          >
-          </Divider>
-        </Container>
-      </Segment>
       <Segment inverted vertical style={{ padding: '2em 0em' }}>
         <Container>
           <Grid divided inverted stackable>
