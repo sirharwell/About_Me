@@ -64,7 +64,7 @@ class Family extends Component {
             <div>
                 <img src="https://lh3.googleusercontent.com/kKbTBqT-P4ZP-bJ6SRqXNVIyKCpLrY5G-XBjPDKWz1OQzjfY95QWldCs8_-IgyFpjGWEInddu1DC3JIHcvphQP_tGGzAdi_CZulKzPhjzIxl8xf9rm5A8LRxy2LPsOIxQSwI5JvarXzni-XAP-qq8BQddiyRr72SlE2trCS1qQjv7qUTwLNHA_gQGQ0IavrHENy3QK-JLaOMf4tW_g2PjEe9mLLa4LDu2FdiD51w7y6eX7vv3fIJXGgWHm5Gd7M8iezl0hVaxQaTb96LZDIe5hMOYlXW2Fcx2HoLSyK4rFIFtUVHSKKXKbFqwenynDFkh9QQtEt5FtzRjHC1jV7L2TwJCBPjxyfNfh7YMnMVl5e_sfQpapD-ot0pOEOCE6DIB71v0ufo7JtSHxOqM3QrweM7DnrBhhrQtnzLK-Z-OHG4Ku4CE_QOebEDujHgE1OLg-BguqR4lfaa0oxlqaDmQqA8HGBv_1v8E7uNqemY76mRtqK2LjRWO_uYSrmDbqPvZ8V7PO15WG08J5wZr8FMwF5rh7w66Q3zDnUYV8ocBaJIhmUJ5Gk2AxpJoMagjJ6t3WoJ6kxGm30nLPZBNtaWZPCu1gEcDrGW6FAobXw=w1042-h781-no" />
                 <p className="legend">Boating</p>
-            </Boatingdiv>
+            </div>
             <div>
                 <img src="https://lh3.googleusercontent.com/wutkU5rJxMeDyjTjpmHDXDJ_Jgrb3iVaswsSzKEZq3tRElzNxAwxUwJK5haMd_5s3nBOcHmjDT96Gm7AltDwfBfuCGmbofhpEqEy_oUbuqby6Bt439pY-FlQH0HOTtLTkIfi-ZEAJiHjmfqxZAD6y1yoEUWWn7lsqUS91XqouCwZJre9mr5LtUt2oKgXv_GjAkaxSmjLzvD5OEBbBaTRcHiHcRqcTEA8gNvquG1g7kIhcEFgAKe9vNatPg3MPPJgGLMjQxi-kDrByIAKaUvnvlT6ZR_eGSROQjDNqL5s_awGEjmyCAA12_3i6Xbr0aqo8T2YHOhKFHe5VpfgTilf8prEwyYR2-eVAAMwoIIZBaxAhfpwHi0N-CfoCvnabb92tL90TX5NXa1I6fOHFcLL98HkAyXrhznq_coRIBgXwzjCur_LwIYeEpWK3--N7aUdk8_FSKV0C7UmviCgCvFlz5qrxOGvt6koztlsmp121BLNmYNkxzfVABOMGIH7Ln5B7-HLHDmSu0_qQO4ubXPdTXWiO9B39bdB6_Q2tDgya7kWO2I7kCRNmwoOC-n_Z5KiH_JLTXHJdJVBXpd8R1qIB0IOxEkBRCcA6ieNzpg=w521-h781-no" />
                 <p className="legend">Zip Lining</p>
