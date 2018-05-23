@@ -28,7 +28,7 @@ class Family extends Component {
           <Grid centered columns={2}>
           <Grid.Column>
           <Segment textAlign="center" >
-            <Carousel autoPlay infiniteLoop width="fluid" showArrows={true}>
+            <Carousel dynamicHeight autoPlay infiniteLoop width="fluid" showArrows={true}>
             <div>
                 <img src="https://lh3.googleusercontent.com/Lf4ayFDDO6X0yCwZHYSgBMEN6LhPxal0iWMaoT-iFKWU0ATsSN0pMze02eqi7rP1SExLqTrE0RiEtM7nOb0MB6Uwf-u-O-DgbqjpRl90g5fVrtjNHbLgNuaLISPoomftHqhnvcliVaj5S_tvQR7pguF6zMiAaa6SaAq5z41JCp3mc5ppZYwD8Kkj5QGTRnsKSif9tebXqF6Mjoed9afPPtbx1uEBuqsKECQDFz98UZ5XahFECwQ-tqlNpCjwTLNUdGwuuYY6F8oKzU4yKIe4sX8oHmI3BINuLEQ6LWcPAzjBGS9cQMmL6AJkPt1Dvfwe7IuUTmslNQOL6bFGGiutxuvosI7euDYnTa_2SmEgMQ3W64bAkU3ao5ZmoTzWr58qEfSUQSCbjQ5JxLNj-LyhRbakRWjlHo4mAIRRocczGBipIv_3TAljJVjQp0WL_L1lHDWKgAUJS-mAmjB9Qcb92iTPWhotQYjZDPeWRiglRObbC1klZO1mpdwik2-fRKpVVQv5P5OfVKHwmj_g_bp80XizcQCu-jzsje_taqJf4GEuKRkOF90THRuwIQko11OUUP-JvzZcFLyB0f8nsPOwWqEMwCgiF4P9pUc-pOfJ=w1243-h700-no" />
                 <p className="legend">Jeeping</p>
@@ -86,12 +86,12 @@ class Family extends Component {
         <Grid container stackable verticalAlign='middle'>
           <Grid.Row>
             <Grid.Column width={8}>
-              <Header as='h3' style={{ fontSize: '2em' }}>Married for 8 years</Header>
+              <Header as='h3' style={{ fontSize: '2em' }}>Travel</Header>
               <p style={{ fontSize: '1.33em' }}>
-                I met Cori during my senior year of high school. We quickly became best of friends even if we didn't see each other as romantic partners. Fast forward a bit forward and we realize that we were being dumb and were meant to be together. We got married and have been happy together ever since.
-                </p>
+                I live to travel. Most of our extra money goes to seeing the world. There's so much to see and do and I want to see and do it all. Between my wife and I, we've been to 17 countries and we're hoping to expand that. We have a goal to leave the country at least every other year. Our two favorite places have been the UK and basically anywhere in the Caribbean.
+              </p>
                 <p style={{ fontSize: '1.33em' }}>
-                Not only is she pretty cool, but she's a successful pediatric nurse, currently working at Primary Children's Hospital, which takes the worst patients arcross five different states. She's a great mother and wife.
+                That Map has every country that we've been to, all filled. Hopefully as time goes, that map will be much much fuller. 
               </p>
             </Grid.Column>
             <Grid.Column floated='right' width={6}>
@@ -99,7 +99,7 @@ class Family extends Component {
                 bordered
                 rounded
                 size='large'
-                src='https://lh3.googleusercontent.com/yow1uRDcjz04IaxpBUz_V5kMsxE85IgCDMSPchnkjEUMdlJkHTXZl0DnNXNoFr3zrxaurS5pZOp6EtbJevfP8mWBWmZR2AA-wRmcGtZf-NtD1HX3y_GCwjwqUcbvX1VqbobYyAO45qJviy6LqdbTssvuTNUs8RqnbK1JeehhptiMaaDWXcrQr4-mVQyPjBMqK6D2FeKyeOb91c2UMCT9e3oUzH1YV7QEHgoK4dpnM50y4Io8L07EAznbNs81FaVZVK7C9XjAUcgD5YLkllFGLn4-DFGiDZTzYBaeK_LeNBFzTTndonyPT-iG-YHb7kTSN1OabGli7XaDoq-knFvSKeDJ6SMW8HfUZoRMv3L6ydO2mbX-qGw_JqPdqB6EBdaFzmFJ9iv1OxHmpih06ygoT4yX3ITXVTzNhkbPdvDGdYGZ9nFmx46STG9FpFszDMrFRSQUQtLZDhcjSsgZEMEStRusC1CsstZd92UkaSt6yVnVkte0dwi0TJxn0pyB2hx5ZHYACK9iy9jFhwYUp1x2M6vlQs_9jyBlzcUHX1syV8kMTtM_BasAMu8-jcsEs4QtOqQET15xN94z5lEUQdIXC80xVgaLeD7CFyeGW6iH=w586-h781-no'
+                src='./photos/Map.png'
               />
             </Grid.Column>
           </Grid.Row>
