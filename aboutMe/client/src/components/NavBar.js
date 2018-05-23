@@ -23,7 +23,6 @@ class NavBar extends Component {
       <Menu.Item position='right' as='a' href="/Work_XP" active={activeItem === "/Work_XP"}>Work Experience</Menu.Item>
       <Menu.Item position='right' as='a' href="/Family" active={activeItem === '/Family'}>Family</Menu.Item>
       <Menu.Item position='right' as='a' href="/Interests" active={activeItem === '/Interests'} >Interests</Menu.Item>
-      <Menu.Item position='right' as='a' href="/" active={activeItem === '/c'}>Contact Me</Menu.Item>
       </Menu>
     )
   }
