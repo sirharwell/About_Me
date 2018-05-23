@@ -23,7 +23,12 @@ import './carousel.css';
 class Family extends Component {
     render() {
         return (
-            <Carousel showArrows={true}>
+          <div>
+          <br/><br/><br/>
+          <Grid centered columns={2}>
+          <Grid.Column>
+          <Segment textAlign="center" inline style={{display: "flex", justifyContent: "center"}}>
+            <Carousel autoPlay infiniteLoop width="fluid" showArrows={true}>
                 <div>
                     <img src="https://lh3.googleusercontent.com/yJHmQYQSh7uOaXvUmXhg7nDbystVV1DlO_cKvWpHwfOnBX-X27da8L9qlV5krJgkfp46GgNGQdmIhMefUWHpMLXCXsglOVQr6PL4Tq2PXBr6FZC6TgWpQD2A-hNkZnTghlGEY1ufEG-vgIhaadd6wamOC7hX3ziZyoKxW2hGqbRkXn4EoZr3BFM68087VorsUbhFxU3U-ligIEbjP2eDBhTa1K5QIjAUDNbOry-5JS5vIcvQ9Ur2vyN3iY3oj0k5BU2dvVf4Z1i4NDQBGLckDJRjkSxLAKQp7YuNC-Npu4LLVMpXd-XU2Uce5ktJ6-3Z7KOvXEzbuY4MqTnQ9l7cpQZ0rp0ReEuzoab-Z80rRoHlZ-vCxCY2gAOZDo3YJpXnyhhoH6jBTFqGnr2PsHfQ7XiWP2GN04eA435Uwuoa8sKogeW9I_G3o3aml5pRjuu1VmavLFEkjka9J2xgpU-PGthc_YPvHl2IuBEgFR0Up6hacFUOcRggKyEHqCwCMAyzlFTl_aC_idmzy2RwOhNk6kFYYD5idvWBF2fZZykhJ8Dhd0lpm9iTHRLsPDFdFEJZyiYC4Lb1b6Bwxq6sS9j-ZX7GZOfKwLGA2IZDaqo=w1042-h781-no" />
                     <p className="legend">Cori and I when we first started dating</p>
@@ -33,61 +38,25 @@ class Family extends Component {
                     <p className="legend">Wedding Day</p>
                 </div>
                 <div>
-                    <img src="http://lorempixel.com/900/500/sports/3/" />
-                    <p className="legend">Legend 3</p>
+                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/1896911_10203265429183314_463627747_n.jpg?_nc_cat=0&_nc_eui2=AeEJpcrMOWw5n5mfp9EJK_vhPOjaEe2bFoz9M73ydm5thh6j2gr7BmhRXdJIIktITKF5LiH1xjZBOmnxln9gruu6v1eNfXl6Av0anuuVecYIYw&oh=32685a40256d6eb026497828fcdcdb50&oe=5B8D60CA" />
+                    <p className="legend">"My Family"</p>
                 </div>
                 <div>
-                    <img src="http://lorempixel.com/900/500/sports/4/" />
-                    <p className="legend">Legend 4</p>
+                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/10857890_10205166910282701_8089820189994856374_n.jpg?_nc_cat=0&_nc_eui2=AeGXVmbEh2jatEeSHXrUi-G9UpXDEUF2pwyPaSZYimDE9qoaK6R3CzDsqQrR8JU4HqeVX5OEjd51YJ2WHZQmmqZDy620Q7W9WUQE2mZcpp_XXg&oh=8338c026e348e2b7df00c312b63ab405&oe=5BC01D44" />
+                    <p className="legend">"Cori's Family"</p>
                 </div>
                 <div>
-                    <img src="http://lorempixel.com/900/500/sports/5/" />
-                    <p className="legend">Legend 5</p>
+                    <img src="https://lh3.googleusercontent.com/HExEzktz98_vpIG3Xqx_nbZrWLasQoQmvS7_fMSYuXNVdwOxZEfihXwkuh_YWphKm47sLq2e5Zr4UN5Elmfi9MB5b6k2i6t2Qq3GzeZ_v5Y6ls928-P0MLFAijqEAdBd2QvUxq_muK4VQvc3QQ-699GmeXhN1J7rfgVFbtZbzDS6R9LQMOeB0I3qawEMOW-BRvdv_N13UU85v8BXFZw2I7AOKrHwksyFITqGqqwgnF4wekoF5aepviA7JLdELu3cxyPHjrsmHCPykbuysurl5n3C_UHBJE1ZF0SfIZHp4IX_RkuZAfPnu4gcbrvGXrGs2iFxOCN8Ioi-VOMYPL6_rsOhsOF-RMFSQKDs_WecXmO0iZxAzjzD4XHnPpvzNuLgniS6u8Uar-zV1b_LeDzmRiVXPTGTQ9PX0rtFWMr7vS9KGqkF8rzODLqEf0Fxmsh0bZAsz067BORQTlBCa0dI2W9rRrrziNBm685iAyP62RmDSNUuC0NBywteSbxgrTCP7qlrwJJzCiR8uG9GvtDpzV_NWfniy7EVszB7MuJHDtNvOnOmQqHoknBH8fbobo0BfVxB4HJ-QY1qJUA4JW5skUD9O7ibMZbAnqmAiI8x=w1042-h781-no" />
+                    <p className="legend">"Baby Liam joins the family"</p>
                 </div>
                 <div>
-                    <img src="http://lorempixel.com/900/500/sports/6/" />
-                    <p className="legend">Legend 6</p>
+                    <img src="https://lh3.googleusercontent.com/jqp5S2rbUCj_IH7gPtirhIvORpBZ5g30EVXLzUoraUTs3Pfodwl0WvchmSUj2I6hPuy5LlwkJNkBhWDUJicR0j-tsTnlTL4hRpM9NQdWQ5878uU-keIICVp2JKv9LKJQvzSgAf31aXPj-24coWuSA-uxeyEryMpzupZX2sACRN4EZ_bk-J4qE5CM6qi_Z5uZuiXqT5zItKCazJdbU3qd8wPHrHvav7hcaVrA_HtWhoPUWlGCjIur-rd0Lqi6yimQnrFTkjg-1mjCsrzvWp1XVTjhL7aGD-ibTOBFPajns-Ln0jdz86MRksyEa2tCFlqlxD9ezCZ6rIeUhVB9MlbvoCMwS-CIOyhwX9GM4mHzZ5vwxue3-UeKCcm2Dam3ukxSIzTLhvfh77PjnF30EByiyN0CfEKQjUm3vtH3aTZY3cbVAOtzvIMAq_sAXFFKqvlDrMTgdQOp9BaU3_cXH3XjYrBHmunkBwjKPHDmrqejMhMRzi1WmujVs_R6OC4P2nNvorBh5Cfj3ZTAOCb-ibRMgSCF84rrH_5oonbeEGh2-s8UsY1-_NvHJCGDXoSysHVVogyo5XaTlX9iWNf9Mb8l5UorLYHzFrhT3CPMPo35=w1042-h781-no" />
+                    <p className="legend">The Harwell Clan</p>
                 </div>
             </Carousel>
-        );
-    }
-}
-
-
-
-
-
-
-class Home extends React.Component {
-  render(){
-    return(
-      <div>
-      <link rel="stylesheet" href="./node_modules/react-responsive-carousel/lib/styles/carousel.min.css"/>
-
-      <Carousel>
-        <div>
-          <img src="http://lorempixel.com/output/cats-q-c-640-480-1.jpg" />
-          <p className="legend">Cat!</p>
-        </div>
-        <div>
-          <img src="http://lorempixel.com/output/cats-q-c-640-480-2.jpg" />
-          <p className="legend">More Cat</p>
-        </div>
-        <div>
-          <img src="http://lorempixel.com/output/cats-q-c-640-480-3.jpg" />
-          <p className="legend">Kitty</p>
-        </div>
-
-      </Carousel>
-      <Segment inverted textAlign='center' style={{
-        backgroundImage: `url(https://lh3.googleusercontent.com/sw2TzwDt3LP5jmrXhhqgqpXPiFY2B7yww5t0Pji8gSfnzBcyHXIlimM2xvYRVLAuHhOGMborkA7TyFCNIT6VUn4luoLN1er91Up7bhWm7rp0KmPvhUCeHZ6yprb1LYBnns3arlBtYxJ6a5LryIA0PneqflQEPhTIF6DRlGcjGUEN-ard7ZvXcjrjtVO5dYC570AcE0mL-eT7flNe3hYVfHi7FBR8lMKEP0SOn5A4rqqqyu1d6IJOtwk-rcpX7fb63WooqDNk61WitPsyk9eKcx3BbGx5CzFnnEjfyV8kgEOHfkTA7U66fA96H6o9zqby0qso3A09mNQ8zmg4L_3gApJ6m_SSuVZmVPep3DlBh-hEc2TUrGhIi2sr5XTr7OBztOe_9JudZyLZtRe-gNbfLg9_5G2tyiGiHSvzzc_VfJG3UjAbaoDfzdOb-KONtHex4MFKD8QC-E7zj8cyDGuDd3LP9UoEGVltau0cEy7TvCtfUBxx0tTMHLuEofWd0T3PodT4KEn_dwZjLi1XaaSVNsQQMHOwN9d5ZgiJ60gXCn72PWu7l-SVNDCGXYzU9qUiW_90DKfhlXKdiEdDkceV2dastAlYVtasVsolepHX=w1239-h697-no)`, backgroundSize: " cover ", minHeight: 700, padding: '1em 0em' }} vertical
-      >
-        <Container text style={{marginTop:'30px'}}>
-          <Segment style={{ backgroundColor: 'rgba(250, 250, 250, .0)', padding: '20px'}}>
-            <Header as='h3' inverted style={{ fontSize: '4em', textShadow: '-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black' }}>Ian Harwell</Header>
-          </Segment>
-        </Container>
-      </Segment>
+            </Segment>
+            </Grid.Column>
+            </Grid>
         <Segment style={{ padding: '8em 0em' }} vertical>
         <Grid container stackable verticalAlign='middle'>
           <Grid.Row>
@@ -98,7 +67,6 @@ class Home extends React.Component {
               </p>
               <Header as='h3' style={{ fontSize: '2em' }}>I have been married for 8 years</Header>
               <p style={{ fontSize: '1.33em' }}>
-                She's the super coolest, you can learn more about her
               </p><a href=''>here.</a>
             </Grid.Column>
             <Grid.Column floated='right' width={6}>
@@ -134,7 +102,6 @@ class Home extends React.Component {
             I like to travel. I enjoy going camping and jeeping. I want to try and visit all the wonders of the world.
             <br/>
             <br/>
-            If you want to know more about me, feel free to explore the website. If that doesn't sem like quite enough, hit me up on social media or just send me a text/email like the gold ol' days. I typically get online at least once a day even when out exploring the world, so response time shouldn't be too long.
           </p>
           <Divider
             as='h4'
