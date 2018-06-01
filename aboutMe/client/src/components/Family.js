@@ -66,7 +66,7 @@ class Family extends Component {
                 I met Cori during my senior year of high school. We quickly became best of friends even if we didn't see each other as romantic partners. Fast forward a bit forward and we realize that we were being dumb and were meant to be together. We got married and have been happy together ever since.
                 </p>
                 <p style={{ fontSize: '1.33em' }}>
-                Not only is she pretty cool, but she's a successful pediatric nurse, currently working at Primary Children's Hospital, which takes the worst patients arcross five different states. She's a great mother and wife.
+                Not only is she pretty cool, but she's a successful pediatric nurse, currently working at Primary Children's Hospital, which takes the worst patients across five different states. She's a great mother and wife.
               </p>
             </Grid.Column>
             <Grid.Column floated='right' width={6}>

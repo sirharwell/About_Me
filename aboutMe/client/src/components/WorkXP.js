@@ -96,7 +96,7 @@ class Work extends React.Component {
         </Image.Group>
           <Header as='h3' style={{ fontSize: '2em' }}>Different Companies, same job</Header>
           <p style={{ fontSize: '1.33em' }}>
-            I sold various telecom providers. I sold both thet major as well as regional companies. For example, Xfinity as well as Cincinnati Bell. We had requirements to hit conversion rates (sales per call) as well as maintaining a high level of costumer satisfaction and a rigurous QA requiremnt.
+            I sold various telecom providers. I sold for both major as well as regional companies. For example, big companies like Xfinity as well as small ones like Cincinnati Bell. We had requirements to hit conversion rates (sales per call) as well as maintaining a high level of customer satisfaction and a rigorous QA requirement.
             <br/>
             <br/>
           </p>

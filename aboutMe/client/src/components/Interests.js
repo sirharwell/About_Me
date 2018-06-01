@@ -91,7 +91,7 @@ class Family extends Component {
                 I live to travel. Most of our extra money goes to seeing the world. There's so much to see and do and I want to see and do it all. Between my wife and I, we've been to 17 countries and we're hoping to expand that. We have a goal to leave the country at least every other year. Our two favorite places have been the UK and basically anywhere in the Caribbean.
               </p>
                 <p style={{ fontSize: '1.33em' }}>
-                That Map has every country that we've been to, all filled. Hopefully as time goes, that map will be much much fuller.
+                That map has every country that we've been to, all filled. Hopefully as time goes, that map will be much much fuller.
               </p>
             </Grid.Column>
             <Grid.Column floated='right' width={6}>
@@ -130,7 +130,7 @@ class Family extends Component {
             <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
             <br/><br/>
             <Header as='h3' style={{ fontSize: '2em' }}>Animals</Header>
-              <p style={{ fontSize: '1.33em' }}> I love animals. If I could set up a private animal sanctuary in my back yard, I totally would. We take my son to the zoo, but we all really know who that zoo trip is really for.
+              <p style={{ fontSize: '1.33em' }}> I love animals. If I could set up a private animal sanctuary in my backyard, I totally would. We take my son to the zoo, but we all really know who that zoo trip is really for.
               </p>
             </Grid.Column>
             <Grid.Column floated='right' width={6}>
