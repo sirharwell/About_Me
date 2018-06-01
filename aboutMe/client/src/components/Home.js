@@ -73,7 +73,7 @@ class Home extends React.Component {
             I like to travel. I enjoy going camping and jeeping. I want to try and visit all the wonders of the world.
             <br/>
             <br/>
-            If you want to know more about me, feel free to explore the website. If that doesn't seem like quite enough, hit me up on social media or just send me a text/email like the gold ol' days. I typically get online at least once a day even when out exploring the world, so response time shouldn't be too long.
+            If you want to know more about me, feel free to explore the website. If that doesn't seem like quite enough, hit me up on social media or just send me a text/email like the good ol' days. I typically get online at least once a day even when out exploring the world, so response time shouldn't be too long.
           </p>
           <Divider
             as='h4'
