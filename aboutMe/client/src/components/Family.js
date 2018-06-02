@@ -42,7 +42,7 @@ class Family extends Component {
                     <p className="legend">"My Family"</p>
                 </div>
                 <div>
-                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/10857890_10205166910282701_8089820189994856374_n.jpg?_nc_cat=0&_nc_eui2=AeGXVmbEh2jatEeSHXrUi-G9UpXDEUF2pwyPaSZYimDE9qoaK6R3CzDsqQrR8JU4HqeVX5OEjd51YJ2WHZQmmqZDy620Q7W9WUQE2mZcpp_XXg&oh=8338c026e348e2b7df00c312b63ab405&oe=5BC01D44" />
+                    <img src="./photos/sanderson.jpg" />
                     <p className="legend">"Cori's Family"</p>
                 </div>
                 <div>
@@ -50,7 +50,7 @@ class Family extends Component {
                     <p className="legend">"Baby Liam joins the family"</p>
                 </div>
                 <div>
-                    <img src="https://lh3.googleusercontent.com/jqp5S2rbUCj_IH7gPtirhIvORpBZ5g30EVXLzUoraUTs3Pfodwl0WvchmSUj2I6hPuy5LlwkJNkBhWDUJicR0j-tsTnlTL4hRpM9NQdWQ5878uU-keIICVp2JKv9LKJQvzSgAf31aXPj-24coWuSA-uxeyEryMpzupZX2sACRN4EZ_bk-J4qE5CM6qi_Z5uZuiXqT5zItKCazJdbU3qd8wPHrHvav7hcaVrA_HtWhoPUWlGCjIur-rd0Lqi6yimQnrFTkjg-1mjCsrzvWp1XVTjhL7aGD-ibTOBFPajns-Ln0jdz86MRksyEa2tCFlqlxD9ezCZ6rIeUhVB9MlbvoCMwS-CIOyhwX9GM4mHzZ5vwxue3-UeKCcm2Dam3ukxSIzTLhvfh77PjnF30EByiyN0CfEKQjUm3vtH3aTZY3cbVAOtzvIMAq_sAXFFKqvlDrMTgdQOp9BaU3_cXH3XjYrBHmunkBwjKPHDmrqejMhMRzi1WmujVs_R6OC4P2nNvorBh5Cfj3ZTAOCb-ibRMgSCF84rrH_5oonbeEGh2-s8UsY1-_NvHJCGDXoSysHVVogyo5XaTlX9iWNf9Mb8l5UorLYHzFrhT3CPMPo35=w1042-h781-no" />
+                    <img src="./photos/usie.jpg" />
                     <p className="legend">The Harwell Clan</p>
                 </div>
             </Carousel>
@@ -74,7 +74,7 @@ class Family extends Component {
                 bordered
                 rounded
                 size='large'
-                src='https://lh3.googleusercontent.com/yow1uRDcjz04IaxpBUz_V5kMsxE85IgCDMSPchnkjEUMdlJkHTXZl0DnNXNoFr3zrxaurS5pZOp6EtbJevfP8mWBWmZR2AA-wRmcGtZf-NtD1HX3y_GCwjwqUcbvX1VqbobYyAO45qJviy6LqdbTssvuTNUs8RqnbK1JeehhptiMaaDWXcrQr4-mVQyPjBMqK6D2FeKyeOb91c2UMCT9e3oUzH1YV7QEHgoK4dpnM50y4Io8L07EAznbNs81FaVZVK7C9XjAUcgD5YLkllFGLn4-DFGiDZTzYBaeK_LeNBFzTTndonyPT-iG-YHb7kTSN1OabGli7XaDoq-knFvSKeDJ6SMW8HfUZoRMv3L6ydO2mbX-qGw_JqPdqB6EBdaFzmFJ9iv1OxHmpih06ygoT4yX3ITXVTzNhkbPdvDGdYGZ9nFmx46STG9FpFszDMrFRSQUQtLZDhcjSsgZEMEStRusC1CsstZd92UkaSt6yVnVkte0dwi0TJxn0pyB2hx5ZHYACK9iy9jFhwYUp1x2M6vlQs_9jyBlzcUHX1syV8kMTtM_BasAMu8-jcsEs4QtOqQET15xN94z5lEUQdIXC80xVgaLeD7CFyeGW6iH=w586-h781-no'
+                src='./photos/splash.jpg'
               />
             </Grid.Column>
           </Grid.Row>
@@ -88,7 +88,7 @@ class Family extends Component {
               bordered
               rounded
               size='medium'
-              src='https://lh3.googleusercontent.com/35HQakmPYlvkTaHe_YhSZnrx1BoL3cKHLWAmcj7pURqOzSO0oeOywOH4JkgqPEXRMnsAkAcl8IRifMnLteQf5eE4kOBazE1kUeuEuJP1DWQBl2QjMSlKVl2ro0XNVsV8tU-8CSl2Kdz6ugi8hKIQTcjjAJNWNnyiqCaaQ84f09M_kWD4JkYxyX7kPCNG0dDdYqQL93YyH-zvTOBs3HI_G6ChxLfKP3x041bcVTNjyiMCcji46RKvhO-JKM8c4B8FLxHD1BnBSYsxrIJLt6C40Vowk1jkJuSvGR6wNPZkODielXBbfSEKkAzv2JKg0_8SpjOgoE8GKf-8UvTZV1m4YN0Y1kOQafM-FAcULkWESKWGQ66y0t8O6D5wLjTmHs8Dp1dTZksh0OWw4v7aKodY_1i5e8r_9vWYKyq3M3aL02icOmaMusoi1pMZYFkBHfrtSACI87zEJt6AmPqnTEC-irMpzX_PK-bzEGGIyJ6o8DRRgobZ6VGYLsreRH-skwm0RBqUmazcuxuC24oA_ZYe9fUokyHkVXBsELhMR3wnxcsUH8xboNZpA_1HtOsLwabB9mclHPW4k9niZmvpVBXMW-DFj5pnJ5E54-cJTLVA=w586-h781-no'
+              src='./photos/liam.jpg'
             />
           </Grid.Column>
             <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
