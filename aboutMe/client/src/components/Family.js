@@ -30,7 +30,7 @@ class Family extends Component {
           <Segment textAlign="center" >
             <Carousel autoPlay infiniteLoop width="fluid" showArrows={true}>
                 <div>
-                    <img src="https://lh3.googleusercontent.com/yJHmQYQSh7uOaXvUmXhg7nDbystVV1DlO_cKvWpHwfOnBX-X27da8L9qlV5krJgkfp46GgNGQdmIhMefUWHpMLXCXsglOVQr6PL4Tq2PXBr6FZC6TgWpQD2A-hNkZnTghlGEY1ufEG-vgIhaadd6wamOC7hX3ziZyoKxW2hGqbRkXn4EoZr3BFM68087VorsUbhFxU3U-ligIEbjP2eDBhTa1K5QIjAUDNbOry-5JS5vIcvQ9Ur2vyN3iY3oj0k5BU2dvVf4Z1i4NDQBGLckDJRjkSxLAKQp7YuNC-Npu4LLVMpXd-XU2Uce5ktJ6-3Z7KOvXEzbuY4MqTnQ9l7cpQZ0rp0ReEuzoab-Z80rRoHlZ-vCxCY2gAOZDo3YJpXnyhhoH6jBTFqGnr2PsHfQ7XiWP2GN04eA435Uwuoa8sKogeW9I_G3o3aml5pRjuu1VmavLFEkjka9J2xgpU-PGthc_YPvHl2IuBEgFR0Up6hacFUOcRggKyEHqCwCMAyzlFTl_aC_idmzy2RwOhNk6kFYYD5idvWBF2fZZykhJ8Dhd0lpm9iTHRLsPDFdFEJZyiYC4Lb1b6Bwxq6sS9j-ZX7GZOfKwLGA2IZDaqo=w1042-h781-no" />
+                    <img src="./photos/snow.JPG" />
                     <p className="legend">Cori and I when we first started dating</p>
                 </div>
                 <div>
