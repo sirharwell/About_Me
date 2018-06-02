@@ -30,7 +30,7 @@ class Family extends Component {
           <Segment textAlign="center" >
             <Carousel dynamicHeight infiniteLoop width="fluid" showArrows={true}>
             <div>
-                <img src="https://lh3.googleusercontent.com/Lf4ayFDDO6X0yCwZHYSgBMEN6LhPxal0iWMaoT-iFKWU0ATsSN0pMze02eqi7rP1SExLqTrE0RiEtM7nOb0MB6Uwf-u-O-DgbqjpRl90g5fVrtjNHbLgNuaLISPoomftHqhnvcliVaj5S_tvQR7pguF6zMiAaa6SaAq5z41JCp3mc5ppZYwD8Kkj5QGTRnsKSif9tebXqF6Mjoed9afPPtbx1uEBuqsKECQDFz98UZ5XahFECwQ-tqlNpCjwTLNUdGwuuYY6F8oKzU4yKIe4sX8oHmI3BINuLEQ6LWcPAzjBGS9cQMmL6AJkPt1Dvfwe7IuUTmslNQOL6bFGGiutxuvosI7euDYnTa_2SmEgMQ3W64bAkU3ao5ZmoTzWr58qEfSUQSCbjQ5JxLNj-LyhRbakRWjlHo4mAIRRocczGBipIv_3TAljJVjQp0WL_L1lHDWKgAUJS-mAmjB9Qcb92iTPWhotQYjZDPeWRiglRObbC1klZO1mpdwik2-fRKpVVQv5P5OfVKHwmj_g_bp80XizcQCu-jzsje_taqJf4GEuKRkOF90THRuwIQko11OUUP-JvzZcFLyB0f8nsPOwWqEMwCgiF4P9pUc-pOfJ=w1243-h700-no" />
+                <img src="./photos/jeeping.jpg" />
                 <p className="legend">Jeeping</p>
             </div>
             <div>
