@@ -34,11 +34,11 @@ class Family extends Component {
                     <p className="legend">Cori and I when we first started dating</p>
                 </div>
                 <div>
-                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/206285_10150468830080727_6494640_n.jpg?_nc_cat=0&oh=7672d9a811073aa4bdc45bb1e742cd2f&oe=5B81AD2A" />
+                    <img src="./photos/wedding.jpg" />
                     <p className="legend">Wedding Day</p>
                 </div>
                 <div>
-                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/1896911_10203265429183314_463627747_n.jpg?_nc_cat=0&_nc_eui2=AeEJpcrMOWw5n5mfp9EJK_vhPOjaEe2bFoz9M73ydm5thh6j2gr7BmhRXdJIIktITKF5LiH1xjZBOmnxln9gruu6v1eNfXl6Av0anuuVecYIYw&oh=32685a40256d6eb026497828fcdcdb50&oe=5B8D60CA" />
+                    <img src="./photos/vegas.jpg" />
                     <p className="legend">"My Family"</p>
                 </div>
                 <div>
@@ -46,7 +46,7 @@ class Family extends Component {
                     <p className="legend">"Cori's Family"</p>
                 </div>
                 <div>
-                    <img src="https://lh3.googleusercontent.com/HExEzktz98_vpIG3Xqx_nbZrWLasQoQmvS7_fMSYuXNVdwOxZEfihXwkuh_YWphKm47sLq2e5Zr4UN5Elmfi9MB5b6k2i6t2Qq3GzeZ_v5Y6ls928-P0MLFAijqEAdBd2QvUxq_muK4VQvc3QQ-699GmeXhN1J7rfgVFbtZbzDS6R9LQMOeB0I3qawEMOW-BRvdv_N13UU85v8BXFZw2I7AOKrHwksyFITqGqqwgnF4wekoF5aepviA7JLdELu3cxyPHjrsmHCPykbuysurl5n3C_UHBJE1ZF0SfIZHp4IX_RkuZAfPnu4gcbrvGXrGs2iFxOCN8Ioi-VOMYPL6_rsOhsOF-RMFSQKDs_WecXmO0iZxAzjzD4XHnPpvzNuLgniS6u8Uar-zV1b_LeDzmRiVXPTGTQ9PX0rtFWMr7vS9KGqkF8rzODLqEf0Fxmsh0bZAsz067BORQTlBCa0dI2W9rRrrziNBm685iAyP62RmDSNUuC0NBywteSbxgrTCP7qlrwJJzCiR8uG9GvtDpzV_NWfniy7EVszB7MuJHDtNvOnOmQqHoknBH8fbobo0BfVxB4HJ-QY1qJUA4JW5skUD9O7ibMZbAnqmAiI8x=w1042-h781-no" />
+                    <img src="./photos/baby.jpg" />
                     <p className="legend">"Baby Liam joins the family"</p>
                 </div>
                 <div>
