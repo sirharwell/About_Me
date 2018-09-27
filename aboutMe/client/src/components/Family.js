@@ -94,7 +94,7 @@ class Family extends Component {
             <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
             <br/><br/>
             <Header as='h3' style={{ fontSize: '2em' }}>Liam</Header>
-              <p style={{ fontSize: '1.33em' }}> After seven years of adventures, we decided to go for the next big one. Liam is the best baby you could ask for. He likes to laugh and will always smile for the camera. His favorite thing to do is say "Hi" to everyone and give them a high five.
+              <p style={{ fontSize: '1.33em' }}> After seven years of adventures, we decided to go for the next big one. Liam is the best baby you could ask for. He likes to laugh and will always smile for the camera. His favorite thing to do is say "Hi" to everyone and give them a high five. He runs around the park all day and makes friends with all the kids, even though the kids don't know it. 
               </p>
             </Grid.Column>
           </Grid.Row>
