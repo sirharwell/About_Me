@@ -33,12 +33,12 @@ class Work extends React.Component {
             <Grid.Column width={8}>
               <Header as='h3' style={{ fontSize: '2em' }}>Programming stuff I have learned</Header>
               <p style={{ fontSize: '1.33em' }}>
-              Ruby,	Rails,	UI Frameworks, ReactJS,
+              Java, JavaFX,	UI Frameworks, ReactJS,
               CSS,	HTML,	Authentication,
-              a11y,	Fundamentals,	Deployment,	Flux,
-              JavaScript,	GIT,	Testing,	Redux,
+              Fundamentals,	Deployment,
+              JavaScript,	GIT,	Testing,
               SQL,	QA,	Webpack,	Native,
-              Command Line,	jQuery,	AJAX / Fetch / Axios,	Routing,
+              Command Line,	jQuery,	Routing,
               Functional Programming,	OOP	Performance,
               Real Time Applications,	PWA	Package Publishing, and more.
                              </p>
@@ -61,11 +61,16 @@ class Work extends React.Component {
           </Grid.Row>
         </Grid>
       </Segment>
-        <Image
-        rounded
-        centered
-        size='huge'
-        src='https://gradsoflife.org/wp-content/uploads/2013/10/FIDELITY-logo.jpg'/>
+      <Image.Group centered>
+      <Image
+      rounded
+      size='medium'
+      src='./photos/Fidelity.jpg'/>
+      <Image
+      rounded
+      size='medium'
+      src='./photos/Etrade.jpg'/>
+      </Image.Group>
         <Divider hidden/>
       <Segment style={{ padding: '0em' }} vertical>
         <Grid celled='internally' columns='equal' stackable>
