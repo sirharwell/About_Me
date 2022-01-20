@@ -35,7 +35,7 @@ class Home extends React.Component {
               <p style={{ fontSize: '1.33em' }}>
                 I've lived in England, Argentina, Colorado, Virginia, Illinois, Washington Dc, Maryland, Utah, and Texas.
               </p>
-              <Header as='h3' style={{ fontSize: '2em' }}>I have been married for 8 years</Header>
+              <Header as='h3' style={{ fontSize: '2em' }}>I have been married for 11 years</Header>
               <p style={{ fontSize: '1.33em' }}>
                 She's the super coolest, you can learn more about her
               <a href='/family'>here.</a></p>
@@ -45,7 +45,7 @@ class Home extends React.Component {
                 bordered
                 rounded
                 size='large'
-                src='./photos/Arches.jpg'
+                src='./photos/RiverFamily.jpg'
               />
             </Grid.Column>
           </Grid.Row>

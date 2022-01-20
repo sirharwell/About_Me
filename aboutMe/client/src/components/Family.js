@@ -61,7 +61,7 @@ class Family extends Component {
         <Grid container stackable verticalAlign='middle'>
           <Grid.Row>
             <Grid.Column width={8}>
-              <Header as='h3' style={{ fontSize: '2em' }}>Married for 8 years</Header>
+              <Header as='h3' style={{ fontSize: '2em' }}>Married for 11 years</Header>
               <p style={{ fontSize: '1.33em' }}>
                 I met Cori during my senior year of high school. We quickly became best of friends even if we didn't see each other as romantic partners. Fast forward a bit forward and we realize that we were being dumb and were meant to be together. We got married and have been happy together ever since.
                 </p>
@@ -93,8 +93,8 @@ class Family extends Component {
           </Grid.Column>
             <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
             <br/><br/>
-            <Header as='h3' style={{ fontSize: '2em' }}>Liam</Header>
-              <p style={{ fontSize: '1.33em' }}> After seven years of adventures, we decided to go for the next big one. Liam is the best baby you could ask for. He likes to laugh and will always smile for the camera. His favorite thing to do is say "Hi" to everyone and give them a high five. He runs around the park all day and makes friends with all the kids, even though the kids don't know it. 
+            <Header as='h3' style={{ fontSize: '2em' }}>Liam & Charlie</Header>
+              <p style={{ fontSize: '1.33em' }}> After seven years of adventures, we decided to go for the next big one. Liam is the best baby you could ask for. He likes to laugh and will always smile for the camera. His favorite thing to do is say "Hi" to everyone and give them a high five. He runs around the park all day and makes friends with all the kids, even though the kids don't know it.
               </p>
             </Grid.Column>
           </Grid.Row>
