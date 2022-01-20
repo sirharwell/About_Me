@@ -38,20 +38,48 @@ class Family extends Component {
                     <p className="legend">Wedding Day</p>
                 </div>
                 <div>
+                    <img src="./photos/Cabo.jpg" />
+                    <p className="legend">Boat ride in Cabo</p>
+                </div>
+                <div>
                     <img src="./photos/vegas.jpg" />
                     <p className="legend">"My Family"</p>
                 </div>
                 <div>
-                    <img src="./photos/sanderson.jpg" />
+                    <img src="./photos/BoatTour.jpg" />
+                    <p className="legend">Boat Tour</p>
+                </div>
+                <div>
+                    <img src="./photos/Sandersons.jpg" />
                     <p className="legend">"Cori's Family"</p>
                 </div>
                 <div>
-                    <img src="./photos/baby.jpg" />
-                    <p className="legend">"Baby Liam joins the family"</p>
+                    <img src="./photos/Loki.jpg" />
+                    <p className="legend">"Loki joins the family"</p>
                 </div>
                 <div>
-                    <img src="./photos/usie.jpg" />
+                    <img src="./photos/Chairlift.jpg" />
+                    <p className="legend">Chairlift</p>
+                </div>
+                <div>
+                    <img src="./photos/OldFaithful.jpg" />
                     <p className="legend">The Harwell Clan</p>
+                </div>
+                <div>
+                    <img src="./photos/Buddah.jpg" />
+                    <p className="legend">Buddist Temple in Hawaii</p>
+                </div>
+                <div>
+                    <img src="./photos/Corn.jpg" />
+                    <p className="legend">Family Corn Maze</p>
+                </div>
+                <div>
+                    <img src="./photos/Forest.jpg" />
+                    <p className="legend">Hawaiian Forest</p>
+                </div>
+                <div>
+                    <img src="./photos/Halloween.jpg" />
+                    <p className="legend">Trick or Treat</p>
                 </div>
             </Carousel>
             </Segment>
